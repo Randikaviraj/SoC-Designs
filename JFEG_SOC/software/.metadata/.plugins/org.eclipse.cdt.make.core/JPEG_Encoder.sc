@@ -2,7 +2,7 @@
 <?scdStore version="2"?>
 
 <scannerInfo id="org.eclipse.cdt.make.core.discoveredScannerInfo">
-<instance id="preference.org.eclipse.cdt.managedbuilder.core.configurationDataProvider.624079762;preference.org.eclipse.cdt.managedbuilder.core.configurationDataProvider.624079762.;cdt.managedbuild.tool.gnu.cpp.compiler.cygwin.base.269145803;cdt.managedbuild.tool.gnu.cpp.compiler.input.cygwin.591438512">
+<instance id="preference.org.eclipse.cdt.managedbuilder.core.configurationDataProvider.402126935;preference.org.eclipse.cdt.managedbuilder.core.configurationDataProvider.402126935.;cdt.managedbuild.tool.gnu.cpp.compiler.cygwin.base.1360826395;cdt.managedbuild.tool.gnu.cpp.compiler.input.cygwin.371122104">
 <collector id="org.eclipse.cdt.make.core.PerProjectSICollector">
 <includePath path="D:/CO503AdvancedEmbeddedSystems/Newfolder/JFEG_SOC/software/JPEG_Encoder_bsp/HAL/inc"/>
 <includePath path="D:/CO503AdvancedEmbeddedSystems/Newfolder/JFEG_SOC/software/JPEG_Encoder_bsp/"/>
@@ -230,7 +230,7 @@
 <definedSymbol symbol="ALT_SINGLE_THREADED=1"/>
 </collector>
 </instance>
-<instance id="preference.org.eclipse.cdt.managedbuilder.core.configurationDataProvider.624079762;preference.org.eclipse.cdt.managedbuilder.core.configurationDataProvider.624079762.;cdt.managedbuild.tool.gnu.c.compiler.cygwin.base.1303650905;cdt.managedbuild.tool.gnu.c.compiler.input.cygwin.95492970">
+<instance id="preference.org.eclipse.cdt.managedbuilder.core.configurationDataProvider.402126935;preference.org.eclipse.cdt.managedbuilder.core.configurationDataProvider.402126935.;cdt.managedbuild.tool.gnu.c.compiler.cygwin.base.1623093051;cdt.managedbuild.tool.gnu.c.compiler.input.cygwin.1786842994">
 <collector id="org.eclipse.cdt.make.core.PerProjectSICollector">
 <includePath path="D:/CO503AdvancedEmbeddedSystems/Newfolder/JFEG_SOC/software/JPEG_Encoder_bsp/HAL/inc"/>
 <includePath path="D:/CO503AdvancedEmbeddedSystems/Newfolder/JFEG_SOC/software/JPEG_Encoder_bsp/"/>

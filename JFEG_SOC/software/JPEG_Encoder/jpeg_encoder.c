@@ -8,13 +8,11 @@
  * Description	: Compress and convert a BMP image file into JPEG format
  *
  *************************************************************************************/
-#include <io.h>
+
 #include "application/jpeg_encoding.h"
 #include "application/bmp_extract.h"
 
 #define NO_OF_FILES 7
-#define LED_BASE 0x09001000
-#define OFFSET 0x00000000
 
 
 void convert_picture(const char *jtag_input);
@@ -30,15 +28,14 @@ int main()
 	while(1) {
 		printf("Input file: ");
 		scanf("%s", jtag_input); // Ask for the input BMP file
-		IOWR_8DIRECT(LED_BASE,OFFSET,1)
+
 		// Check if the filename ends in '.bmp'
 		if(strcmp(&jtag_input[strlen(jtag_input) - 4], ".bmp") == 0) {
-			IOWR_8DIRECT(LED_BASE,OFFSET,2)
+
 			convert_picture(jtag_input); // See function at the bottom
 
 		}
 		printf("\n\n");
-		IOWR_8DIRECT(LED_BASE,OFFSET,0)
 	}
 
 	return 0;

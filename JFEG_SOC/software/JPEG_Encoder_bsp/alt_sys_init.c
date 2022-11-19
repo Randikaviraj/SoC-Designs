@@ -4,7 +4,7 @@
  * Machine generated for CPU 'cpu' in SOPC Builder design 'SoC'
  * SOPC Builder design path: D:/CO503AdvancedEmbeddedSystems/Newfolder/JFEG_SOC/SoC.sopcinfo
  *
- * Generated: Mon Nov 07 00:51:46 IST 2022
+ * Generated: Sat Nov 19 21:54:08 IST 2022
  */
 
 /*

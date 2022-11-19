@@ -2,8 +2,8 @@
 <sch:Settings xmlns:sch="http://www.altera.com/embeddedsw/bsp/schema">
         <BspType>hal</BspType>
         <BspVersion>default</BspVersion>
-        <BspGeneratedTimeStamp>07-Nov-2022 00:52:26</BspGeneratedTimeStamp>
-        <BspGeneratedUnixTimeStamp>1667762546784</BspGeneratedUnixTimeStamp>
+        <BspGeneratedTimeStamp>19-Nov-2022 22:43:59</BspGeneratedTimeStamp>
+        <BspGeneratedUnixTimeStamp>1668878039901</BspGeneratedUnixTimeStamp>
         <BspGeneratedLocation>D:\CO503AdvancedEmbeddedSystems\Newfolder\JFEG_SOC\software\JPEG_Encoder_bsp</BspGeneratedLocation>
         <BspSettingsFile>settings.bsp</BspSettingsFile>
         <SopcDesignFile>D:\CO503AdvancedEmbeddedSystems\Newfolder\JFEG_SOC\SoC.sopcinfo</SopcDesignFile>
