@@ -4,7 +4,7 @@
  * Machine generated for CPU 'cpu' in SOPC Builder design 'SoC'
  * SOPC Builder design path: D:/CO503AdvancedEmbeddedSystems/Newfolder/JFEG_SOC/SoC.sopcinfo
  *
- * Generated: Sat Nov 19 22:38:31 IST 2022
+ * Generated: Sun Nov 20 12:48:56 IST 2022
  */
 
 /*
@@ -75,7 +75,7 @@
 #define ALT_CPU_FLUSHDA_SUPPORTED
 #define ALT_CPU_FREQ 100000000
 #define ALT_CPU_HARDWARE_DIVIDE_PRESENT 0
-#define ALT_CPU_HARDWARE_MULTIPLY_PRESENT 1
+#define ALT_CPU_HARDWARE_MULTIPLY_PRESENT 0
 #define ALT_CPU_HARDWARE_MULX_PRESENT 0
 #define ALT_CPU_HAS_DEBUG_CORE 1
 #define ALT_CPU_HAS_DEBUG_STUB
@@ -106,7 +106,7 @@
 #define NIOS2_EXCEPTION_ADDR 0x20
 #define NIOS2_FLUSHDA_SUPPORTED
 #define NIOS2_HARDWARE_DIVIDE_PRESENT 0
-#define NIOS2_HARDWARE_MULTIPLY_PRESENT 1
+#define NIOS2_HARDWARE_MULTIPLY_PRESENT 0
 #define NIOS2_HARDWARE_MULX_PRESENT 0
 #define NIOS2_HAS_DEBUG_CORE 1
 #define NIOS2_HAS_DEBUG_STUB
@@ -193,7 +193,7 @@
 
 #define ALT_MODULE_CLASS_jtag_uart altera_avalon_jtag_uart
 #define JTAG_UART_BASE 0x9001020
-#define JTAG_UART_IRQ 16
+#define JTAG_UART_IRQ 1
 #define JTAG_UART_IRQ_INTERRUPT_CONTROLLER_ID 0
 #define JTAG_UART_NAME "/dev/jtag_uart"
 #define JTAG_UART_READ_DEPTH 64
@@ -210,7 +210,7 @@
  */
 
 #define ALT_MODULE_CLASS_led_out altera_avalon_pio
-#define LED_OUT_BASE 0x9001000
+#define LED_OUT_BASE 0x9001010
 #define LED_OUT_BIT_CLEARING_EDGE_REGISTER 0
 #define LED_OUT_BIT_MODIFYING_OUTPUT_REGISTER 0
 #define LED_OUT_CAPTURE 0
@@ -237,7 +237,7 @@
  */
 
 #define ALT_MODULE_CLASS_pll altpll
-#define PLL_BASE 0x9001010
+#define PLL_BASE 0x9001000
 #define PLL_IRQ -1
 #define PLL_IRQ_INTERRUPT_CONTROLLER_ID -1
 #define PLL_NAME "/dev/pll"
@@ -296,7 +296,7 @@
 #define SYSID_IRQ_INTERRUPT_CONTROLLER_ID -1
 #define SYSID_NAME "/dev/sysid"
 #define SYSID_SPAN 8
-#define SYSID_TIMESTAMP 1668877045
+#define SYSID_TIMESTAMP 1668928455
 #define SYSID_TYPE "altera_avalon_sysid_qsys"
 
 
@@ -311,7 +311,7 @@
 #define TIMER_COUNTER_SIZE 32
 #define TIMER_FIXED_PERIOD 0
 #define TIMER_FREQ 10000000u
-#define TIMER_IRQ 1
+#define TIMER_IRQ 16
 #define TIMER_IRQ_INTERRUPT_CONTROLLER_ID 0
 #define TIMER_LOAD_VALUE 9999ull
 #define TIMER_MULT 0.0010

@@ -11,9 +11,14 @@
 
 #include "application/jpeg_encoding.h"
 #include "application/bmp_extract.h"
+#include <stdio.h>
+#include <stdint.h>
+#include <io.h>
+#include <unistd.h>
 
 #define NO_OF_FILES 7
-
+#define LED_BASE 0x09001010 // INSERT BASE ADDRESS OF "led_out" PIO DEVICE FROM QSYS
+#define OFFSET 0x00000000
 
 void convert_picture(const char *jtag_input);
 
@@ -24,16 +29,16 @@ int main()
 
 	// Print that welcome message. Programmers looove welcome messages! ;)
 	printf("CO503 JPEG Encoder \n\n");
-
+	IOWR_8DIRECT(LED_BASE,OFFSET,0xAA);
 	while(1) {
 		printf("Input file: ");
 		scanf("%s", jtag_input); // Ask for the input BMP file
 
 		// Check if the filename ends in '.bmp'
 		if(strcmp(&jtag_input[strlen(jtag_input) - 4], ".bmp") == 0) {
-
+			IOWR_8DIRECT(LED_BASE,OFFSET,0x3C);
 			convert_picture(jtag_input); // See function at the bottom
-
+			IOWR_8DIRECT(LED_BASE,OFFSET,0xFF);
 		}
 		printf("\n\n");
 	}

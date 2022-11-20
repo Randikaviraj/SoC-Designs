@@ -3,19 +3,19 @@
  <debug showDebugMenu="0" />
  <systemtable>
   <columns>
-   <connections preferredWidth="47" />
+   <connections preferredWidth="191" />
    <irq preferredWidth="34" />
-   <name preferredWidth="256" />
   </columns>
  </systemtable>
  <clocktable>
   <columns>
-   <clockname preferredWidth="358" />
-   <clocksource preferredWidth="356" />
-   <frequency preferredWidth="340" />
+   <clockname preferredWidth="269" />
+   <clocksource preferredWidth="269" />
+   <frequency preferredWidth="250" />
   </columns>
  </clocktable>
- <library expandedCategories="Library,Project" />
- <window width="1366" height="728" x="0" y="0" />
+ <library
+   expandedCategories="Library/Memories and Memory Controllers,Library/Memories and Memory Controllers/External Memory Interfaces,Library/Memories and Memory Controllers/External Memory Interfaces/SDRAM Interfaces,Project,Library" />
+ <window width="1100" height="728" x="0" y="0" />
  <hdlexample language="VERILOG" />
 </preferences>

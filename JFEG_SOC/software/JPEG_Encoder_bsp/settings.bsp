@@ -2,8 +2,8 @@
 <sch:Settings xmlns:sch="http://www.altera.com/embeddedsw/bsp/schema">
         <BspType>hal</BspType>
         <BspVersion>default</BspVersion>
-        <BspGeneratedTimeStamp>19-Nov-2022 22:43:59</BspGeneratedTimeStamp>
-        <BspGeneratedUnixTimeStamp>1668878039901</BspGeneratedUnixTimeStamp>
+        <BspGeneratedTimeStamp>20-Nov-2022 12:50:12</BspGeneratedTimeStamp>
+        <BspGeneratedUnixTimeStamp>1668928812977</BspGeneratedUnixTimeStamp>
         <BspGeneratedLocation>D:\CO503AdvancedEmbeddedSystems\Newfolder\JFEG_SOC\software\JPEG_Encoder_bsp</BspGeneratedLocation>
         <BspSettingsFile>settings.bsp</BspSettingsFile>
         <SopcDesignFile>D:\CO503AdvancedEmbeddedSystems\Newfolder\JFEG_SOC\SoC.sopcinfo</SopcDesignFile>
@@ -881,13 +881,13 @@
                 <attributes/>
         </MemoryMap>
         <MemoryMap>
-                <slaveDescriptor>led_out</slaveDescriptor>
+                <slaveDescriptor>pll</slaveDescriptor>
                 <addressRange>0x09001000 - 0x0900100F</addressRange>
                 <addressSpan>16</addressSpan>
                 <attributes/>
         </MemoryMap>
         <MemoryMap>
-                <slaveDescriptor>pll</slaveDescriptor>
+                <slaveDescriptor>led_out</slaveDescriptor>
                 <addressRange>0x09001010 - 0x0900101F</addressRange>
                 <addressSpan>16</addressSpan>
                 <attributes/>
