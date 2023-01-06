@@ -1,15 +1,26 @@
 
-**** Clean-only build of configuration Nios II for project JPEG_Encoder ****
+**** Build of configuration Nios II for project JPEG_Encoder ****
 
-make clean 
-      1 [main] sh 1436 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+make all 
+      1 [main] sh 7828 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
 the public mailing list cygwin@cygwin.com
-      1 [main] sh 10348 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+      1 [main] sh 1364 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
 the public mailing list cygwin@cygwin.com
-      1 [main] rm 844 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+      1 [main] echo 6504 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Info: Building ../JPEG_Encoder_bsp/
 the public mailing list cygwin@cygwin.com
-      1 [main] sh 3800 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+make --no-print-directory -C ../JPEG_Encoder_bsp/
+      1 [main] pwd 8700 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
 the public mailing list cygwin@cygwin.com
-[JPEG_Encoder clean complete]
+      1 [main] sh 9384 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] sh 5652 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+[BSP build complete]
+      1 [main] true 6612 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] sh 6316 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+[JPEG_Encoder build complete]
 
 **** Build Finished ****
