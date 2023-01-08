@@ -1,0 +1,19 @@
+!SESSION 2023-01-09 00:24:53.075 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_GB
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-01-09 00:25:50.975
+!MESSAGE Indexed 'Consumer_bsp' (81 sources, 61 headers) in 2.31 sec: 1,049 declarations; 2,586 references; 117 unresolved inclusions; 5 syntax errors; 217 unresolved names (5.63%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-01-09 00:25:56.899
+!MESSAGE Indexed 'Consumer' (0 sources, 13 headers) in 0.01 sec: 0 declarations; 0 references; 13 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-01-09 00:29:52.664
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=1 --stop --id=0x0 --timestamp=1673199811]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-01-09 00:29:55.506
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=1 --go --id=0x0 --timestamp=1673199811 /cygdrive/d/CO503AdvancedEmbeddedSystems/Newfolder/Hardware_fifo_Multi_Processor/software/Consumer/Consumer.elf]
