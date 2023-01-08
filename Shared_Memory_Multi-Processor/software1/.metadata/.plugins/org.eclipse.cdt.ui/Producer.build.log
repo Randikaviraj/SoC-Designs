@@ -1,0 +1,26 @@
+
+**** Build of configuration Nios II for project Producer ****
+
+make all 
+      1 [main] sh 9916 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] sh 7872 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] echo 5872 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Info: Building ../Producer_bsp/
+the public mailing list cygwin@cygwin.com
+make --no-print-directory -C ../Producer_bsp/
+      1 [main] pwd 4044 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] sh 6556 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] sh 8584 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+[BSP build complete]
+the public mailing list cygwin@cygwin.com
+      1 [main] true 6852 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] sh 4080 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+[Producer build complete]
+
+**** Build Finished ****

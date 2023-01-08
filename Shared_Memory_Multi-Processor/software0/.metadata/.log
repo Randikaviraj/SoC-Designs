@@ -1,0 +1,64 @@
+!SESSION 2023-01-08 17:09:56.191 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_GB
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-01-08 17:10:45.392
+!MESSAGE Indexed 'Consumer_bsp' (81 sources, 60 headers) in 1.57 sec: 952 declarations; 2,340 references; 117 unresolved inclusions; 5 syntax errors; 199 unresolved names (5.70%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-01-08 17:10:48.440
+!MESSAGE Indexed 'Consumer' (0 sources, 13 headers) in 0.02 sec: 0 declarations; 0 references; 13 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-01-08 17:16:39.502
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x81020 --id=0x0 --timestamp=1673177132]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-01-08 17:16:42.124
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x81020 --id=0x0 --timestamp=1673177132 /cygdrive/d/CO503AdvancedEmbeddedSystems/Newfolder/Shared_Memory_Multi-Processor/software/Consumer/Consumer.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-01-08 17:24:59.129
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x81020 --id=0x0 --timestamp=1673177132]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-01-08 17:25:01.867
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x81020 --id=0x0 --timestamp=1673177132 /cygdrive/d/CO503AdvancedEmbeddedSystems/Newfolder/Shared_Memory_Multi-Processor/software/Consumer/Consumer.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-01-08 17:34:33.470
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-01-08 17:34:34.072
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x81020 --id=0x0 --timestamp=1673177132]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-01-08 17:34:36.913
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x81020 --id=0x0 --timestamp=1673177132 /cygdrive/d/CO503AdvancedEmbeddedSystems/Newfolder/Shared_Memory_Multi-Processor/software/Consumer/Consumer.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-01-08 17:52:36.206
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-01-08 17:52:36.876
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x81020 --id=0x0 --timestamp=1673177132]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-01-08 17:52:39.513
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x81020 --id=0x0 --timestamp=1673177132 /cygdrive/d/CO503AdvancedEmbeddedSystems/Newfolder/Shared_Memory_Multi-Processor/software/Consumer/Consumer.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-01-08 17:57:20.193
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-01-08 17:57:20.810
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x81020 --id=0x0 --timestamp=1673177132]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-01-08 17:57:23.485
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x81020 --id=0x0 --timestamp=1673177132 /cygdrive/d/CO503AdvancedEmbeddedSystems/Newfolder/Shared_Memory_Multi-Processor/software/Consumer/Consumer.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-01-08 17:58:37.521
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x81020 --id=0x0 --timestamp=1673177132]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-01-08 17:58:40.396
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x81020 --id=0x0 --timestamp=1673177132 /cygdrive/d/CO503AdvancedEmbeddedSystems/Newfolder/Shared_Memory_Multi-Processor/software/Consumer/Consumer.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-01-08 19:23:21.347
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x81020 --id=0x0 --timestamp=1673177132]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-01-08 19:23:24.091
+!MESSAGE Executing: [C:/altera/12.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x81020 --id=0x0 --timestamp=1673177132 /cygdrive/d/CO503AdvancedEmbeddedSystems/Newfolder/Shared_Memory_Multi-Processor/software/Consumer/Consumer.elf]
