@@ -1,0 +1,688 @@
+Info: Starting: Create block symbol file (.bsf)
+Info: ip-generate --project-directory=D:/CO503AdvancedEmbeddedSystems/Newfolder/JFEG_MPSOC/ --output-directory=D:/CO503AdvancedEmbeddedSystems/Newfolder/JFEG_MPSOC/SoC/ --report-file=bsf:D:/CO503AdvancedEmbeddedSystems/Newfolder/JFEG_MPSOC/SoC.bsf --system-info=DEVICE_FAMILY="Cyclone IV E" --system-info=DEVICE=EP4CE115F29C7 --system-info=DEVICE_SPEEDGRADE=7 --component-file=D:/CO503AdvancedEmbeddedSystems/Newfolder/JFEG_MPSOC/SoC.qsys
+Progress: Loading JFEG_MPSOC/SoC.qsys
+Progress: Reading input file
+Progress: Adding clock [clock_source 12.1]
+Progress: Parameterizing module clock
+Progress: Adding instruction_mem_0 [altera_avalon_onchip_memory2 12.1]
+Progress: Parameterizing module instruction_mem_0
+Progress: Adding data_mem_0 [altera_avalon_onchip_memory2 12.1]
+Progress: Parameterizing module data_mem_0
+Progress: Adding cpu_0 [altera_nios2_qsys 12.1]
+Progress: Parameterizing module cpu_0
+Progress: Adding jtag_uart_0 [altera_avalon_jtag_uart 12.1]
+Progress: Parameterizing module jtag_uart_0
+Progress: Adding timer_0 [altera_avalon_timer 12.1]
+Progress: Parameterizing module timer_0
+Progress: Adding instruction_mem_1 [altera_avalon_onchip_memory2 12.1]
+Progress: Parameterizing module instruction_mem_1
+Progress: Adding data_mem_1 [altera_avalon_onchip_memory2 12.1]
+Progress: Parameterizing module data_mem_1
+Progress: Adding cpu_1 [altera_nios2_qsys 12.1]
+Progress: Parameterizing module cpu_1
+Progress: Adding jtag_uart_1 [altera_avalon_jtag_uart 12.1]
+Progress: Parameterizing module jtag_uart_1
+Progress: Adding timer_1 [altera_avalon_timer 12.1]
+Progress: Parameterizing module timer_1
+Progress: Adding instruction_mem_2 [altera_avalon_onchip_memory2 12.1]
+Progress: Parameterizing module instruction_mem_2
+Progress: Adding data_mem_2 [altera_avalon_onchip_memory2 12.1]
+Progress: Parameterizing module data_mem_2
+Progress: Adding cpu_2 [altera_nios2_qsys 12.1]
+Progress: Parameterizing module cpu_2
+Progress: Adding jtag_uart_2 [altera_avalon_jtag_uart 12.1]
+Progress: Parameterizing module jtag_uart_2
+Progress: Adding timer_2 [altera_avalon_timer 12.1]
+Progress: Parameterizing module timer_2
+Progress: Adding instruction_mem_3 [altera_avalon_onchip_memory2 12.1]
+Progress: Parameterizing module instruction_mem_3
+Progress: Adding data_mem_3 [altera_avalon_onchip_memory2 12.1]
+Progress: Parameterizing module data_mem_3
+Progress: Adding cpu_3 [altera_nios2_qsys 12.1]
+Progress: Parameterizing module cpu_3
+Progress: Adding jtag_uart_3 [altera_avalon_jtag_uart 12.1]
+Progress: Parameterizing module jtag_uart_3
+Progress: Adding timer_3 [altera_avalon_timer 12.1]
+Progress: Parameterizing module timer_3
+Progress: Adding instruction_mem_4 [altera_avalon_onchip_memory2 12.1]
+Progress: Parameterizing module instruction_mem_4
+Progress: Adding data_mem_4 [altera_avalon_onchip_memory2 12.1]
+Progress: Parameterizing module data_mem_4
+Progress: Adding cpu_4 [altera_nios2_qsys 12.1]
+Progress: Parameterizing module cpu_4
+Progress: Adding jtag_uart_4 [altera_avalon_jtag_uart 12.1]
+Progress: Parameterizing module jtag_uart_4
+Progress: Adding timer_4 [altera_avalon_timer 12.1]
+Progress: Parameterizing module timer_4
+Progress: Adding instruction_mem_5 [altera_avalon_onchip_memory2 12.1]
+Progress: Parameterizing module instruction_mem_5
+Progress: Adding data_mem_5 [altera_avalon_onchip_memory2 12.1]
+Progress: Parameterizing module data_mem_5
+Progress: Adding cpu_5 [altera_nios2_qsys 12.1]
+Progress: Parameterizing module cpu_5
+Progress: Adding jtag_uart_5 [altera_avalon_jtag_uart 12.1]
+Progress: Parameterizing module jtag_uart_5
+Progress: Adding timer_5 [altera_avalon_timer 12.1]
+Progress: Parameterizing module timer_5
+Progress: Adding fifo_0_stage1_to_2 [altera_avalon_fifo 12.1]
+Progress: Parameterizing module fifo_0_stage1_to_2
+Progress: Adding fifo_1_stage1_to_2 [altera_avalon_fifo 12.1]
+Progress: Parameterizing module fifo_1_stage1_to_2
+Progress: Adding fifo_2_stage1_to_2 [altera_avalon_fifo 12.1]
+Progress: Parameterizing module fifo_2_stage1_to_2
+Progress: Adding fifo_stage1_to_4 [altera_avalon_fifo 12.1]
+Progress: Parameterizing module fifo_stage1_to_4
+Progress: Adding fifo_stage1_to_5 [altera_avalon_fifo 12.1]
+Progress: Parameterizing module fifo_stage1_to_5
+Progress: Adding fifo_stage1_to_6 [altera_avalon_fifo 12.1]
+Progress: Parameterizing module fifo_stage1_to_6
+Progress: Adding fifo_stage2_to_3 [altera_avalon_fifo 12.1]
+Progress: Parameterizing module fifo_stage2_to_3
+Progress: Adding fifo_stage3_to_4 [altera_avalon_fifo 12.1]
+Progress: Parameterizing module fifo_stage3_to_4
+Progress: Adding fifo_stage4_to_5 [altera_avalon_fifo 12.1]
+Progress: Parameterizing module fifo_stage4_to_5
+Progress: Adding fifo_stage5_to_6 [altera_avalon_fifo 12.1]
+Progress: Parameterizing module fifo_stage5_to_6
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: SoC.instruction_mem_0: Memory will be initialized from instruction_mem_0.hex
+Info: SoC.data_mem_0: Memory will be initialized from data_mem_0.hex
+Info: SoC.instruction_mem_1: Memory will be initialized from instruction_mem_1.hex
+Info: SoC.data_mem_1: Memory will be initialized from data_mem_1.hex
+Info: SoC.instruction_mem_2: Memory will be initialized from instruction_mem_2.hex
+Info: SoC.data_mem_2: Memory will be initialized from data_mem_2.hex
+Info: SoC.instruction_mem_3: Memory will be initialized from instruction_mem_3.hex
+Info: SoC.data_mem_3: Memory will be initialized from data_mem_3.hex
+Info: SoC.instruction_mem_4: Memory will be initialized from instruction_mem_4.hex
+Info: SoC.data_mem_4: Memory will be initialized from data_mem_4.hex
+Info: SoC.instruction_mem_5: Memory will be initialized from instruction_mem_5.hex
+Info: SoC.data_mem_5: Memory will be initialized from data_mem_5.hex
+Warning: SoC.fifo_stage1_to_6: The Nios II HAL drivers for the Altera Avalon FIFO support only 32-bit data width.  If you connect this FIFO to a Nios II CPU, you will need to access the registers directly.
+Warning: SoC.fifo_0_stage1_to_2: Interrupt sender fifo_0_stage1_to_2.in_irq is not connected to an interrupt receiver
+Warning: SoC.fifo_1_stage1_to_2: Interrupt sender fifo_1_stage1_to_2.in_irq is not connected to an interrupt receiver
+Warning: SoC.fifo_2_stage1_to_2: Interrupt sender fifo_2_stage1_to_2.in_irq is not connected to an interrupt receiver
+Warning: SoC.fifo_stage1_to_4: Interrupt sender fifo_stage1_to_4.in_irq is not connected to an interrupt receiver
+Warning: SoC.fifo_stage1_to_5: Interrupt sender fifo_stage1_to_5.in_irq is not connected to an interrupt receiver
+Warning: SoC.fifo_stage1_to_6: Interrupt sender fifo_stage1_to_6.in_irq is not connected to an interrupt receiver
+Warning: SoC.fifo_stage2_to_3: Interrupt sender fifo_stage2_to_3.in_irq is not connected to an interrupt receiver
+Warning: SoC.fifo_stage3_to_4: Interrupt sender fifo_stage3_to_4.in_irq is not connected to an interrupt receiver
+Warning: SoC.fifo_stage4_to_5: Interrupt sender fifo_stage4_to_5.in_irq is not connected to an interrupt receiver
+Warning: SoC.fifo_stage5_to_6: Interrupt sender fifo_stage5_to_6.in_irq is not connected to an interrupt receiver
+Info: ip-generate succeeded.
+Info: Finished: Create block symbol file (.bsf)
+Info: 
+Info: Starting: Create HDL design files for synthesis
+Info: ip-generate --project-directory=D:/CO503AdvancedEmbeddedSystems/Newfolder/JFEG_MPSOC/ --output-directory=D:/CO503AdvancedEmbeddedSystems/Newfolder/JFEG_MPSOC/SoC/synthesis/ --file-set=QUARTUS_SYNTH --report-file=sopcinfo:D:/CO503AdvancedEmbeddedSystems/Newfolder/JFEG_MPSOC/SoC.sopcinfo --report-file=html:D:/CO503AdvancedEmbeddedSystems/Newfolder/JFEG_MPSOC/SoC.html --report-file=qip:D:/CO503AdvancedEmbeddedSystems/Newfolder/JFEG_MPSOC/SoC/synthesis/SoC.qip --report-file=cmp:D:/CO503AdvancedEmbeddedSystems/Newfolder/JFEG_MPSOC/SoC.cmp --system-info=DEVICE_FAMILY="Cyclone IV E" --system-info=DEVICE=EP4CE115F29C7 --system-info=DEVICE_SPEEDGRADE=7 --component-file=D:/CO503AdvancedEmbeddedSystems/Newfolder/JFEG_MPSOC/SoC.qsys
+Progress: Loading JFEG_MPSOC/SoC.qsys
+Progress: Reading input file
+Progress: Adding clock [clock_source 12.1]
+Progress: Parameterizing module clock
+Progress: Adding instruction_mem_0 [altera_avalon_onchip_memory2 12.1]
+Progress: Parameterizing module instruction_mem_0
+Progress: Adding data_mem_0 [altera_avalon_onchip_memory2 12.1]
+Progress: Parameterizing module data_mem_0
+Progress: Adding cpu_0 [altera_nios2_qsys 12.1]
+Progress: Parameterizing module cpu_0
+Progress: Adding jtag_uart_0 [altera_avalon_jtag_uart 12.1]
+Progress: Parameterizing module jtag_uart_0
+Progress: Adding timer_0 [altera_avalon_timer 12.1]
+Progress: Parameterizing module timer_0
+Progress: Adding instruction_mem_1 [altera_avalon_onchip_memory2 12.1]
+Progress: Parameterizing module instruction_mem_1
+Progress: Adding data_mem_1 [altera_avalon_onchip_memory2 12.1]
+Progress: Parameterizing module data_mem_1
+Progress: Adding cpu_1 [altera_nios2_qsys 12.1]
+Progress: Parameterizing module cpu_1
+Progress: Adding jtag_uart_1 [altera_avalon_jtag_uart 12.1]
+Progress: Parameterizing module jtag_uart_1
+Progress: Adding timer_1 [altera_avalon_timer 12.1]
+Progress: Parameterizing module timer_1
+Progress: Adding instruction_mem_2 [altera_avalon_onchip_memory2 12.1]
+Progress: Parameterizing module instruction_mem_2
+Progress: Adding data_mem_2 [altera_avalon_onchip_memory2 12.1]
+Progress: Parameterizing module data_mem_2
+Progress: Adding cpu_2 [altera_nios2_qsys 12.1]
+Progress: Parameterizing module cpu_2
+Progress: Adding jtag_uart_2 [altera_avalon_jtag_uart 12.1]
+Progress: Parameterizing module jtag_uart_2
+Progress: Adding timer_2 [altera_avalon_timer 12.1]
+Progress: Parameterizing module timer_2
+Progress: Adding instruction_mem_3 [altera_avalon_onchip_memory2 12.1]
+Progress: Parameterizing module instruction_mem_3
+Progress: Adding data_mem_3 [altera_avalon_onchip_memory2 12.1]
+Progress: Parameterizing module data_mem_3
+Progress: Adding cpu_3 [altera_nios2_qsys 12.1]
+Progress: Parameterizing module cpu_3
+Progress: Adding jtag_uart_3 [altera_avalon_jtag_uart 12.1]
+Progress: Parameterizing module jtag_uart_3
+Progress: Adding timer_3 [altera_avalon_timer 12.1]
+Progress: Parameterizing module timer_3
+Progress: Adding instruction_mem_4 [altera_avalon_onchip_memory2 12.1]
+Progress: Parameterizing module instruction_mem_4
+Progress: Adding data_mem_4 [altera_avalon_onchip_memory2 12.1]
+Progress: Parameterizing module data_mem_4
+Progress: Adding cpu_4 [altera_nios2_qsys 12.1]
+Progress: Parameterizing module cpu_4
+Progress: Adding jtag_uart_4 [altera_avalon_jtag_uart 12.1]
+Progress: Parameterizing module jtag_uart_4
+Progress: Adding timer_4 [altera_avalon_timer 12.1]
+Progress: Parameterizing module timer_4
+Progress: Adding instruction_mem_5 [altera_avalon_onchip_memory2 12.1]
+Progress: Parameterizing module instruction_mem_5
+Progress: Adding data_mem_5 [altera_avalon_onchip_memory2 12.1]
+Progress: Parameterizing module data_mem_5
+Progress: Adding cpu_5 [altera_nios2_qsys 12.1]
+Progress: Parameterizing module cpu_5
+Progress: Adding jtag_uart_5 [altera_avalon_jtag_uart 12.1]
+Progress: Parameterizing module jtag_uart_5
+Progress: Adding timer_5 [altera_avalon_timer 12.1]
+Progress: Parameterizing module timer_5
+Progress: Adding fifo_0_stage1_to_2 [altera_avalon_fifo 12.1]
+Progress: Parameterizing module fifo_0_stage1_to_2
+Progress: Adding fifo_1_stage1_to_2 [altera_avalon_fifo 12.1]
+Progress: Parameterizing module fifo_1_stage1_to_2
+Progress: Adding fifo_2_stage1_to_2 [altera_avalon_fifo 12.1]
+Progress: Parameterizing module fifo_2_stage1_to_2
+Progress: Adding fifo_stage1_to_4 [altera_avalon_fifo 12.1]
+Progress: Parameterizing module fifo_stage1_to_4
+Progress: Adding fifo_stage1_to_5 [altera_avalon_fifo 12.1]
+Progress: Parameterizing module fifo_stage1_to_5
+Progress: Adding fifo_stage1_to_6 [altera_avalon_fifo 12.1]
+Progress: Parameterizing module fifo_stage1_to_6
+Progress: Adding fifo_stage2_to_3 [altera_avalon_fifo 12.1]
+Progress: Parameterizing module fifo_stage2_to_3
+Progress: Adding fifo_stage3_to_4 [altera_avalon_fifo 12.1]
+Progress: Parameterizing module fifo_stage3_to_4
+Progress: Adding fifo_stage4_to_5 [altera_avalon_fifo 12.1]
+Progress: Parameterizing module fifo_stage4_to_5
+Progress: Adding fifo_stage5_to_6 [altera_avalon_fifo 12.1]
+Progress: Parameterizing module fifo_stage5_to_6
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: SoC.instruction_mem_0: Memory will be initialized from instruction_mem_0.hex
+Info: SoC.data_mem_0: Memory will be initialized from data_mem_0.hex
+Info: SoC.instruction_mem_1: Memory will be initialized from instruction_mem_1.hex
+Info: SoC.data_mem_1: Memory will be initialized from data_mem_1.hex
+Info: SoC.instruction_mem_2: Memory will be initialized from instruction_mem_2.hex
+Info: SoC.data_mem_2: Memory will be initialized from data_mem_2.hex
+Info: SoC.instruction_mem_3: Memory will be initialized from instruction_mem_3.hex
+Info: SoC.data_mem_3: Memory will be initialized from data_mem_3.hex
+Info: SoC.instruction_mem_4: Memory will be initialized from instruction_mem_4.hex
+Info: SoC.data_mem_4: Memory will be initialized from data_mem_4.hex
+Info: SoC.instruction_mem_5: Memory will be initialized from instruction_mem_5.hex
+Info: SoC.data_mem_5: Memory will be initialized from data_mem_5.hex
+Warning: SoC.fifo_stage1_to_6: The Nios II HAL drivers for the Altera Avalon FIFO support only 32-bit data width.  If you connect this FIFO to a Nios II CPU, you will need to access the registers directly.
+Warning: SoC.fifo_0_stage1_to_2: Interrupt sender fifo_0_stage1_to_2.in_irq is not connected to an interrupt receiver
+Warning: SoC.fifo_1_stage1_to_2: Interrupt sender fifo_1_stage1_to_2.in_irq is not connected to an interrupt receiver
+Warning: SoC.fifo_2_stage1_to_2: Interrupt sender fifo_2_stage1_to_2.in_irq is not connected to an interrupt receiver
+Warning: SoC.fifo_stage1_to_4: Interrupt sender fifo_stage1_to_4.in_irq is not connected to an interrupt receiver
+Warning: SoC.fifo_stage1_to_5: Interrupt sender fifo_stage1_to_5.in_irq is not connected to an interrupt receiver
+Warning: SoC.fifo_stage1_to_6: Interrupt sender fifo_stage1_to_6.in_irq is not connected to an interrupt receiver
+Warning: SoC.fifo_stage2_to_3: Interrupt sender fifo_stage2_to_3.in_irq is not connected to an interrupt receiver
+Warning: SoC.fifo_stage3_to_4: Interrupt sender fifo_stage3_to_4.in_irq is not connected to an interrupt receiver
+Warning: SoC.fifo_stage4_to_5: Interrupt sender fifo_stage4_to_5.in_irq is not connected to an interrupt receiver
+Warning: SoC.fifo_stage5_to_6: Interrupt sender fifo_stage5_to_6.in_irq is not connected to an interrupt receiver
+Info: SoC: Generating SoC "SoC" for QUARTUS_SYNTH
+Info: pipeline_bridge_swap_transform: After transform: 41 modules, 223 connections
+Info: No custom instruction connections, skipping transform 
+Info: merlin_translator_transform: After transform: 113 modules, 522 connections
+Info: merlin_domain_transform: After transform: 246 modules, 1487 connections
+Info: merlin_router_transform: After transform: 318 modules, 1786 connections
+Info: merlin_traffic_limiter_transform: After transform: 324 modules, 1810 connections
+Info: merlin_burst_transform: After transform: 326 modules, 1820 connections
+Info: reset_adaptation_transform: After transform: 341 modules, 1410 connections
+Info: merlin_network_to_switch_transform: After transform: 484 modules, 1730 connections
+Info: merlin_width_transform: After transform: 488 modules, 1742 connections
+Info: limiter_update_transform: After transform: 488 modules, 1748 connections
+Info: merlin_interrupt_mapper_transform: After transform: 494 modules, 1766 connections
+Info: Starting classic module elaboration.
+      1 [main] sh 3724 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Qt: Untested Windows version 6.2 detected!
+"c:/altera/12.1/quartus/bin/jre/bin/java.exe" -Xmx512M -classpath "c:/altera/12.1/quartus/sopc_builder/bin/sopc_builder.jar;c:/altera/12.1/quartus/sopc_builder/bin/PinAssigner.jar;c:/altera/12.1/quartus/sopc_builder/bin/sopc_wizard.jar;c:/altera/12.1/quartus/sopc_builder/bin/jptf.jar" sopc_builder.sopc_builder  -d"c:/altera/12.1/quartus/sopc_builder" -notalkback=1 -projectnameyysystem.qpf -projectpathC:/Users/RANDIKA/AppData/Local/Temp/alt9370_6345438422393240420.dir/0223_sopclgen  --no_splash --refresh C:/Users/RANDIKA/AppData/Local/Temp/alt9370_6345438422393240420.dir/0223_sopclgen/yysystem.v --quartus_dir="c:/altera/12.1/quartus" --sopc_perl="c:/altera/12.1/quartus/bin/perl" --sopc_lib_path="++c:/altera/12.1/quartus/../ip/altera/sopc_builder_ip+c:/altera/12.1/quartus/../ip/altera/nios2_ip"
+Info: Finished elaborating classic module.
+Executing: C:/altera/12.1/quartus//sopc_builder/bin/sopc_builder --classic --generate C:/Users/RANDIKA/AppData/Local/Temp/alt9370_6345438422393240420.dir/0223_sopclgen/yysystem.ptf
+Info: Running sopc_builder...
+      1 [main] sh 2520 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Qt: Untested Windows version 6.2 detected!
+"c:/altera/12.1/quartus/bin/jre/bin/java.exe" -Xmx512M -classpath "c:/altera/12.1/quartus/sopc_builder/bin/sopc_builder.jar;c:/altera/12.1/quartus/sopc_builder/bin/PinAssigner.jar;c:/altera/12.1/quartus/sopc_builder/bin/sopc_wizard.jar;c:/altera/12.1/quartus/sopc_builder/bin/jptf.jar" sopc_builder.sopc_builder  -d"c:/altera/12.1/quartus/sopc_builder" -notalkback=1 -projectnameyysystem.qpf -projectpathC:/Users/RANDIKA/AppData/Local/Temp/alt9370_6345438422393240420.dir/0223_sopclgen  --generate C:/Users/RANDIKA/AppData/Local/Temp/alt9370_6345438422393240420.dir/0223_sopclgen/yysystem.v --quartus_dir="c:/altera/12.1/quartus" --sopc_perl="c:/altera/12.1/quartus/bin/perl" --sopc_lib_path="++c:/altera/12.1/quartus/../ip/altera/sopc_builder_ip+c:/altera/12.1/quartus/../ip/altera/nios2_ip"
+No .sopc_builder configuration file(!)
+.
+# 2023.01.13 18:16:20 (*) Success: sopc_builder finished.
+Info: instruction_mem_0: "SoC" instantiated altera_avalon_onchip_memory2 "instruction_mem_0"
+Info: Starting classic module elaboration.
+      1 [main] sh 8924 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Qt: Untested Windows version 6.2 detected!
+"c:/altera/12.1/quartus/bin/jre/bin/java.exe" -Xmx512M -classpath "c:/altera/12.1/quartus/sopc_builder/bin/sopc_builder.jar;c:/altera/12.1/quartus/sopc_builder/bin/PinAssigner.jar;c:/altera/12.1/quartus/sopc_builder/bin/sopc_wizard.jar;c:/altera/12.1/quartus/sopc_builder/bin/jptf.jar" sopc_builder.sopc_builder  -d"c:/altera/12.1/quartus/sopc_builder" -notalkback=1 -projectnameyysystem.qpf -projectpathC:/Users/RANDIKA/AppData/Local/Temp/alt9370_6345438422393240420.dir/0224_sopclgen  --no_splash --refresh C:/Users/RANDIKA/AppData/Local/Temp/alt9370_6345438422393240420.dir/0224_sopclgen/yysystem.v --quartus_dir="c:/altera/12.1/quartus" --sopc_perl="c:/altera/12.1/quartus/bin/perl" --sopc_lib_path="++c:/altera/12.1/quartus/../ip/altera/sopc_builder_ip+c:/altera/12.1/quartus/../ip/altera/nios2_ip"
+Info: Finished elaborating classic module.
+Executing: C:/altera/12.1/quartus//sopc_builder/bin/sopc_builder --classic --generate C:/Users/RANDIKA/AppData/Local/Temp/alt9370_6345438422393240420.dir/0224_sopclgen/yysystem.ptf
+Info: Running sopc_builder...
+      1 [main] sh 8644 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Qt: Untested Windows version 6.2 detected!
+"c:/altera/12.1/quartus/bin/jre/bin/java.exe" -Xmx512M -classpath "c:/altera/12.1/quartus/sopc_builder/bin/sopc_builder.jar;c:/altera/12.1/quartus/sopc_builder/bin/PinAssigner.jar;c:/altera/12.1/quartus/sopc_builder/bin/sopc_wizard.jar;c:/altera/12.1/quartus/sopc_builder/bin/jptf.jar" sopc_builder.sopc_builder  -d"c:/altera/12.1/quartus/sopc_builder" -notalkback=1 -projectnameyysystem.qpf -projectpathC:/Users/RANDIKA/AppData/Local/Temp/alt9370_6345438422393240420.dir/0224_sopclgen  --generate C:/Users/RANDIKA/AppData/Local/Temp/alt9370_6345438422393240420.dir/0224_sopclgen/yysystem.v --quartus_dir="c:/altera/12.1/quartus" --sopc_perl="c:/altera/12.1/quartus/bin/perl" --sopc_lib_path="++c:/altera/12.1/quartus/../ip/altera/sopc_builder_ip+c:/altera/12.1/quartus/../ip/altera/nios2_ip"
+No .sopc_builder configuration file(!)
+.
+# 2023.01.13 18:16:27 (*) Success: sopc_builder finished.
+Info: data_mem_0: "SoC" instantiated altera_avalon_onchip_memory2 "data_mem_0"
+Info: cpu_0: Starting RTL generation for module 'SoC_cpu_0'
+Info: cpu_0:   Generation command is [exec C:/altera/12.1/quartus/../ip/altera/nios2_ip/altera_nios2/eperl.exe -I C:/altera/12.1/quartus/common/ip/altera/common/perl/5.8.3 -I C:/altera/12.1/quartus/sopc_builder/bin/europa -I C:/altera/12.1/quartus/sopc_builder/bin/perl_lib -I C:/altera/12.1/quartus/sopc_builder/bin -I C:/altera/12.1/quartus/../ip/altera/nios2_ip/altera_nios2/cpu_lib -I C:/altera/12.1/quartus/../ip/altera/nios2_ip/altera_nios2/nios_lib -I C:/altera/12.1/quartus/../ip/altera/nios2_ip/altera_nios2 -I C:/altera/12.1/quartus/../ip/altera/nios2_ip/altera_nios2 -- C:/altera/12.1/quartus/../ip/altera/nios2_ip/altera_nios2/generate_rtl.epl --name=SoC_cpu_0 --dir=C:/Users/RANDIKA/AppData/Local/Temp/alt9370_6345438422393240420.dir/0225_cpu_0_gen/ --quartus_dir=C:/altera/12.1/quartus --verilog --config=C:/Users/RANDIKA/AppData/Local/Temp/alt9370_6345438422393240420.dir/0225_cpu_0_gen//SoC_cpu_0_processor_configuration.pl  --do_build_sim=0    --bogus  ]
+Info: cpu_0: # 2023.01.13 18:16:28 (*) Starting Nios II generation
+Info: cpu_0: # 2023.01.13 18:16:28 (*)   Checking for plaintext license.
+Info: cpu_0: # 2023.01.13 18:16:31 (*)   Plaintext license not found.
+Info: cpu_0: # 2023.01.13 18:16:31 (*)   Checking for encrypted license (non-evaluation).
+Info: cpu_0: # 2023.01.13 18:16:35 (*)   Encrypted license found.  SOF will not be time-limited.
+Info: cpu_0: # 2023.01.13 18:16:35 (*)   Elaborating CPU configuration settings
+Info: cpu_0: # 2023.01.13 18:16:35 (*)   Creating all objects for CPU
+Info: cpu_0: # 2023.01.13 18:16:36 (*)     Pipeline frontend
+Info: cpu_0: # 2023.01.13 18:16:37 (*)   Generating RTL from CPU objects
+Info: cpu_0: # 2023.01.13 18:16:40 (*)   Creating encrypted RTL
+Info: cpu_0: # 2023.01.13 18:16:41 (*) Done Nios II generation
+Info: cpu_0: Done RTL generation for module 'SoC_cpu_0'
+Info: cpu_0: "SoC" instantiated altera_nios2_qsys "cpu_0"
+Info: Starting classic module elaboration.
+      1 [main] sh 2516 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Qt: Untested Windows version 6.2 detected!
+"c:/altera/12.1/quartus/bin/jre/bin/java.exe" -Xmx512M -classpath "c:/altera/12.1/quartus/sopc_builder/bin/sopc_builder.jar;c:/altera/12.1/quartus/sopc_builder/bin/PinAssigner.jar;c:/altera/12.1/quartus/sopc_builder/bin/sopc_wizard.jar;c:/altera/12.1/quartus/sopc_builder/bin/jptf.jar" sopc_builder.sopc_builder  -d"c:/altera/12.1/quartus/sopc_builder" -notalkback=1 -projectnameyysystem.qpf -projectpathC:/Users/RANDIKA/AppData/Local/Temp/alt9370_6345438422393240420.dir/0226_sopclgen  --no_splash --refresh C:/Users/RANDIKA/AppData/Local/Temp/alt9370_6345438422393240420.dir/0226_sopclgen/yysystem.v --quartus_dir="c:/altera/12.1/quartus" --sopc_perl="c:/altera/12.1/quartus/bin/perl" --sopc_lib_path="++c:/altera/12.1/quartus/../ip/altera/sopc_builder_ip+c:/altera/12.1/quartus/../ip/altera/nios2_ip"
+Info: Finished elaborating classic module.
+Executing: C:/altera/12.1/quartus//sopc_builder/bin/sopc_builder --classic --generate C:/Users/RANDIKA/AppData/Local/Temp/alt9370_6345438422393240420.dir/0226_sopclgen/yysystem.ptf
+Info: Running sopc_builder...
+      1 [main] sh 7324 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Qt: Untested Windows version 6.2 detected!
+"c:/altera/12.1/quartus/bin/jre/bin/java.exe" -Xmx512M -classpath "c:/altera/12.1/quartus/sopc_builder/bin/sopc_builder.jar;c:/altera/12.1/quartus/sopc_builder/bin/PinAssigner.jar;c:/altera/12.1/quartus/sopc_builder/bin/sopc_wizard.jar;c:/altera/12.1/quartus/sopc_builder/bin/jptf.jar" sopc_builder.sopc_builder  -d"c:/altera/12.1/quartus/sopc_builder" -notalkback=1 -projectnameyysystem.qpf -projectpathC:/Users/RANDIKA/AppData/Local/Temp/alt9370_6345438422393240420.dir/0226_sopclgen  --generate C:/Users/RANDIKA/AppData/Local/Temp/alt9370_6345438422393240420.dir/0226_sopclgen/yysystem.v --quartus_dir="c:/altera/12.1/quartus" --sopc_perl="c:/altera/12.1/quartus/bin/perl" --sopc_lib_path="++c:/altera/12.1/quartus/../ip/altera/sopc_builder_ip+c:/altera/12.1/quartus/../ip/altera/nios2_ip"
+No .sopc_builder configuration file(!)
+.
+# 2023.01.13 18:16:47 (*) Success: sopc_builder finished.
+Info: jtag_uart_0: "SoC" instantiated altera_avalon_jtag_uart "jtag_uart_0"
+Info: Starting classic module elaboration.
+      1 [main] sh 8408 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Qt: Untested Windows version 6.2 detected!
+"c:/altera/12.1/quartus/bin/jre/bin/java.exe" -Xmx512M -classpath "c:/altera/12.1/quartus/sopc_builder/bin/sopc_builder.jar;c:/altera/12.1/quartus/sopc_builder/bin/PinAssigner.jar;c:/altera/12.1/quartus/sopc_builder/bin/sopc_wizard.jar;c:/altera/12.1/quartus/sopc_builder/bin/jptf.jar" sopc_builder.sopc_builder  -d"c:/altera/12.1/quartus/sopc_builder" -notalkback=1 -projectnameyysystem.qpf -projectpathC:/Users/RANDIKA/AppData/Local/Temp/alt9370_6345438422393240420.dir/0227_sopclgen  --no_splash --refresh C:/Users/RANDIKA/AppData/Local/Temp/alt9370_6345438422393240420.dir/0227_sopclgen/yysystem.v --quartus_dir="c:/altera/12.1/quartus" --sopc_perl="c:/altera/12.1/quartus/bin/perl" --sopc_lib_path="++c:/altera/12.1/quartus/../ip/altera/sopc_builder_ip+c:/altera/12.1/quartus/../ip/altera/nios2_ip"
+Info: Finished elaborating classic module.
+Executing: C:/altera/12.1/quartus//sopc_builder/bin/sopc_builder --classic --generate C:/Users/RANDIKA/AppData/Local/Temp/alt9370_6345438422393240420.dir/0227_sopclgen/yysystem.ptf
+Info: Running sopc_builder...
+      1 [main] sh 2760 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Qt: Untested Windows version 6.2 detected!
+"c:/altera/12.1/quartus/bin/jre/bin/java.exe" -Xmx512M -classpath "c:/altera/12.1/quartus/sopc_builder/bin/sopc_builder.jar;c:/altera/12.1/quartus/sopc_builder/bin/PinAssigner.jar;c:/altera/12.1/quartus/sopc_builder/bin/sopc_wizard.jar;c:/altera/12.1/quartus/sopc_builder/bin/jptf.jar" sopc_builder.sopc_builder  -d"c:/altera/12.1/quartus/sopc_builder" -notalkback=1 -projectnameyysystem.qpf -projectpathC:/Users/RANDIKA/AppData/Local/Temp/alt9370_6345438422393240420.dir/0227_sopclgen  --generate C:/Users/RANDIKA/AppData/Local/Temp/alt9370_6345438422393240420.dir/0227_sopclgen/yysystem.v --quartus_dir="c:/altera/12.1/quartus" --sopc_perl="c:/altera/12.1/quartus/bin/perl" --sopc_lib_path="++c:/altera/12.1/quartus/../ip/altera/sopc_builder_ip+c:/altera/12.1/quartus/../ip/altera/nios2_ip"
+No .sopc_builder configuration file(!)
+.
+# 2023.01.13 18:16:54 (*) Success: sopc_builder finished.
+Info: timer_0: "SoC" instantiated altera_avalon_timer "timer_0"
+Info: Starting classic module elaboration.
+      2 [main] sh 3876 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Qt: Untested Windows version 6.2 detected!
+"c:/altera/12.1/quartus/bin/jre/bin/java.exe" -Xmx512M -classpath "c:/altera/12.1/quartus/sopc_builder/bin/sopc_builder.jar;c:/altera/12.1/quartus/sopc_builder/bin/PinAssigner.jar;c:/altera/12.1/quartus/sopc_builder/bin/sopc_wizard.jar;c:/altera/12.1/quartus/sopc_builder/bin/jptf.jar" sopc_builder.sopc_builder  -d"c:/altera/12.1/quartus/sopc_builder" -notalkback=1 -projectnameyysystem.qpf -projectpathC:/Users/RANDIKA/AppData/Local/Temp/alt9370_6345438422393240420.dir/0228_sopclgen  --no_splash --refresh C:/Users/RANDIKA/AppData/Local/Temp/alt9370_6345438422393240420.dir/0228_sopclgen/yysystem.v --quartus_dir="c:/altera/12.1/quartus" --sopc_perl="c:/altera/12.1/quartus/bin/perl" --sopc_lib_path="++c:/altera/12.1/quartus/../ip/altera/sopc_builder_ip+c:/altera/12.1/quartus/../ip/altera/nios2_ip"
+Info: Finished elaborating classic module.
+Executing: C:/altera/12.1/quartus//sopc_builder/bin/sopc_builder --classic --generate C:/Users/RANDIKA/AppData/Local/Temp/alt9370_6345438422393240420.dir/0228_sopclgen/yysystem.ptf
+Info: Running sopc_builder...
+      1 [main] sh 9040 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Qt: Untested Windows version 6.2 detected!
+"c:/altera/12.1/quartus/bin/jre/bin/java.exe" -Xmx512M -classpath "c:/altera/12.1/quartus/sopc_builder/bin/sopc_builder.jar;c:/altera/12.1/quartus/sopc_builder/bin/PinAssigner.jar;c:/altera/12.1/quartus/sopc_builder/bin/sopc_wizard.jar;c:/altera/12.1/quartus/sopc_builder/bin/jptf.jar" sopc_builder.sopc_builder  -d"c:/altera/12.1/quartus/sopc_builder" -notalkback=1 -projectnameyysystem.qpf -projectpathC:/Users/RANDIKA/AppData/Local/Temp/alt9370_6345438422393240420.dir/0228_sopclgen  --generate C:/Users/RANDIKA/AppData/Local/Temp/alt9370_6345438422393240420.dir/0228_sopclgen/yysystem.v --quartus_dir="c:/altera/12.1/quartus" --sopc_perl="c:/altera/12.1/quartus/bin/perl" --sopc_lib_path="++c:/altera/12.1/quartus/../ip/altera/sopc_builder_ip+c:/altera/12.1/quartus/../ip/altera/nios2_ip"
+No .sopc_builder configuration file(!)
+.
+# 2023.01.13 18:17:00 (*) Success: sopc_builder finished.
+Info: instruction_mem_1: "SoC" instantiated altera_avalon_onchip_memory2 "instruction_mem_1"
+Info: Starting classic module elaboration.
+      1 [main] sh 3932 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Qt: Untested Windows version 6.2 detected!
+"c:/altera/12.1/quartus/bin/jre/bin/java.exe" -Xmx512M -classpath "c:/altera/12.1/quartus/sopc_builder/bin/sopc_builder.jar;c:/altera/12.1/quartus/sopc_builder/bin/PinAssigner.jar;c:/altera/12.1/quartus/sopc_builder/bin/sopc_wizard.jar;c:/altera/12.1/quartus/sopc_builder/bin/jptf.jar" sopc_builder.sopc_builder  -d"c:/altera/12.1/quartus/sopc_builder" -notalkback=1 -projectnameyysystem.qpf -projectpathC:/Users/RANDIKA/AppData/Local/Temp/alt9370_6345438422393240420.dir/0229_sopclgen  --no_splash --refresh C:/Users/RANDIKA/AppData/Local/Temp/alt9370_6345438422393240420.dir/0229_sopclgen/yysystem.v --quartus_dir="c:/altera/12.1/quartus" --sopc_perl="c:/altera/12.1/quartus/bin/perl" --sopc_lib_path="++c:/altera/12.1/quartus/../ip/altera/sopc_builder_ip+c:/altera/12.1/quartus/../ip/altera/nios2_ip"
+Info: Finished elaborating classic module.
+Executing: C:/altera/12.1/quartus//sopc_builder/bin/sopc_builder --classic --generate C:/Users/RANDIKA/AppData/Local/Temp/alt9370_6345438422393240420.dir/0229_sopclgen/yysystem.ptf
+Info: Running sopc_builder...
+      1 [main] sh 10924 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Qt: Untested Windows version 6.2 detected!
+"c:/altera/12.1/quartus/bin/jre/bin/java.exe" -Xmx512M -classpath "c:/altera/12.1/quartus/sopc_builder/bin/sopc_builder.jar;c:/altera/12.1/quartus/sopc_builder/bin/PinAssigner.jar;c:/altera/12.1/quartus/sopc_builder/bin/sopc_wizard.jar;c:/altera/12.1/quartus/sopc_builder/bin/jptf.jar" sopc_builder.sopc_builder  -d"c:/altera/12.1/quartus/sopc_builder" -notalkback=1 -projectnameyysystem.qpf -projectpathC:/Users/RANDIKA/AppData/Local/Temp/alt9370_6345438422393240420.dir/0229_sopclgen  --generate C:/Users/RANDIKA/AppData/Local/Temp/alt9370_6345438422393240420.dir/0229_sopclgen/yysystem.v --quartus_dir="c:/altera/12.1/quartus" --sopc_perl="c:/altera/12.1/quartus/bin/perl" --sopc_lib_path="++c:/altera/12.1/quartus/../ip/altera/sopc_builder_ip+c:/altera/12.1/quartus/../ip/altera/nios2_ip"
+No .sopc_builder configuration file(!)
+.
+# 2023.01.13 18:17:07 (*) Success: sopc_builder finished.
+Info: data_mem_1: "SoC" instantiated altera_avalon_onchip_memory2 "data_mem_1"
+Info: cpu_1: Starting RTL generation for module 'SoC_cpu_1'
+Info: cpu_1:   Generation command is [exec C:/altera/12.1/quartus/../ip/altera/nios2_ip/altera_nios2/eperl.exe -I C:/altera/12.1/quartus/common/ip/altera/common/perl/5.8.3 -I C:/altera/12.1/quartus/sopc_builder/bin/europa -I C:/altera/12.1/quartus/sopc_builder/bin/perl_lib -I C:/altera/12.1/quartus/sopc_builder/bin -I C:/altera/12.1/quartus/../ip/altera/nios2_ip/altera_nios2/cpu_lib -I C:/altera/12.1/quartus/../ip/altera/nios2_ip/altera_nios2/nios_lib -I C:/altera/12.1/quartus/../ip/altera/nios2_ip/altera_nios2 -I C:/altera/12.1/quartus/../ip/altera/nios2_ip/altera_nios2 -- C:/altera/12.1/quartus/../ip/altera/nios2_ip/altera_nios2/generate_rtl.epl --name=SoC_cpu_1 --dir=C:/Users/RANDIKA/AppData/Local/Temp/alt9370_6345438422393240420.dir/0230_cpu_1_gen/ --quartus_dir=C:/altera/12.1/quartus --verilog --config=C:/Users/RANDIKA/AppData/Local/Temp/alt9370_6345438422393240420.dir/0230_cpu_1_gen//SoC_cpu_1_processor_configuration.pl  --do_build_sim=0    --bogus  ]
+Info: cpu_1: # 2023.01.13 18:17:08 (*) Starting Nios II generation
+Info: cpu_1: # 2023.01.13 18:17:08 (*)   Checking for plaintext license.
+Info: cpu_1: # 2023.01.13 18:17:11 (*)   Plaintext license not found.
+Info: cpu_1: # 2023.01.13 18:17:11 (*)   Checking for encrypted license (non-evaluation).
+Info: cpu_1: # 2023.01.13 18:17:15 (*)   Encrypted license found.  SOF will not be time-limited.
+Info: cpu_1: # 2023.01.13 18:17:15 (*)   Elaborating CPU configuration settings
+Info: cpu_1: # 2023.01.13 18:17:15 (*)   Creating all objects for CPU
+Info: cpu_1: # 2023.01.13 18:17:16 (*)     Pipeline frontend
+Info: cpu_1: # 2023.01.13 18:17:17 (*)   Generating RTL from CPU objects
+Info: cpu_1: # 2023.01.13 18:17:20 (*)   Creating encrypted RTL
+Info: cpu_1: # 2023.01.13 18:17:21 (*) Done Nios II generation
+Info: cpu_1: Done RTL generation for module 'SoC_cpu_1'
+Info: cpu_1: "SoC" instantiated altera_nios2_qsys "cpu_1"
+Info: Starting classic module elaboration.
+      1 [main] sh 9344 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Qt: Untested Windows version 6.2 detected!
+"c:/altera/12.1/quartus/bin/jre/bin/java.exe" -Xmx512M -classpath "c:/altera/12.1/quartus/sopc_builder/bin/sopc_builder.jar;c:/altera/12.1/quartus/sopc_builder/bin/PinAssigner.jar;c:/altera/12.1/quartus/sopc_builder/bin/sopc_wizard.jar;c:/altera/12.1/quartus/sopc_builder/bin/jptf.jar" sopc_builder.sopc_builder  -d"c:/altera/12.1/quartus/sopc_builder" -notalkback=1 -projectnameyysystem.qpf -projectpathC:/Users/RANDIKA/AppData/Local/Temp/alt9370_6345438422393240420.dir/0231_sopclgen  --no_splash --refresh C:/Users/RANDIKA/AppData/Local/Temp/alt9370_6345438422393240420.dir/0231_sopclgen/yysystem.v --quartus_dir="c:/altera/12.1/quartus" --sopc_perl="c:/altera/12.1/quartus/bin/perl" --sopc_lib_path="++c:/altera/12.1/quartus/../ip/altera/sopc_builder_ip+c:/altera/12.1/quartus/../ip/altera/nios2_ip"
+Info: Finished elaborating classic module.
+Executing: C:/altera/12.1/quartus//sopc_builder/bin/sopc_builder --classic --generate C:/Users/RANDIKA/AppData/Local/Temp/alt9370_6345438422393240420.dir/0231_sopclgen/yysystem.ptf
+Info: Running sopc_builder...
+      1 [main] sh 10388 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Qt: Untested Windows version 6.2 detected!
+"c:/altera/12.1/quartus/bin/jre/bin/java.exe" -Xmx512M -classpath "c:/altera/12.1/quartus/sopc_builder/bin/sopc_builder.jar;c:/altera/12.1/quartus/sopc_builder/bin/PinAssigner.jar;c:/altera/12.1/quartus/sopc_builder/bin/sopc_wizard.jar;c:/altera/12.1/quartus/sopc_builder/bin/jptf.jar" sopc_builder.sopc_builder  -d"c:/altera/12.1/quartus/sopc_builder" -notalkback=1 -projectnameyysystem.qpf -projectpathC:/Users/RANDIKA/AppData/Local/Temp/alt9370_6345438422393240420.dir/0231_sopclgen  --generate C:/Users/RANDIKA/AppData/Local/Temp/alt9370_6345438422393240420.dir/0231_sopclgen/yysystem.v --quartus_dir="c:/altera/12.1/quartus" --sopc_perl="c:/altera/12.1/quartus/bin/perl" --sopc_lib_path="++c:/altera/12.1/quartus/../ip/altera/sopc_builder_ip+c:/altera/12.1/quartus/../ip/altera/nios2_ip"
+No .sopc_builder configuration file(!)
+.
+# 2023.01.13 18:17:27 (*) Success: sopc_builder finished.
+Info: instruction_mem_2: "SoC" instantiated altera_avalon_onchip_memory2 "instruction_mem_2"
+Info: Starting classic module elaboration.
+      1 [main] sh 6960 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Qt: Untested Windows version 6.2 detected!
+"c:/altera/12.1/quartus/bin/jre/bin/java.exe" -Xmx512M -classpath "c:/altera/12.1/quartus/sopc_builder/bin/sopc_builder.jar;c:/altera/12.1/quartus/sopc_builder/bin/PinAssigner.jar;c:/altera/12.1/quartus/sopc_builder/bin/sopc_wizard.jar;c:/altera/12.1/quartus/sopc_builder/bin/jptf.jar" sopc_builder.sopc_builder  -d"c:/altera/12.1/quartus/sopc_builder" -notalkback=1 -projectnameyysystem.qpf -projectpathC:/Users/RANDIKA/AppData/Local/Temp/alt9370_6345438422393240420.dir/0232_sopclgen  --no_splash --refresh C:/Users/RANDIKA/AppData/Local/Temp/alt9370_6345438422393240420.dir/0232_sopclgen/yysystem.v --quartus_dir="c:/altera/12.1/quartus" --sopc_perl="c:/altera/12.1/quartus/bin/perl" --sopc_lib_path="++c:/altera/12.1/quartus/../ip/altera/sopc_builder_ip+c:/altera/12.1/quartus/../ip/altera/nios2_ip"
+Info: Finished elaborating classic module.
+Executing: C:/altera/12.1/quartus//sopc_builder/bin/sopc_builder --classic --generate C:/Users/RANDIKA/AppData/Local/Temp/alt9370_6345438422393240420.dir/0232_sopclgen/yysystem.ptf
+Info: Running sopc_builder...
+      1 [main] sh 3228 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Qt: Untested Windows version 6.2 detected!
+"c:/altera/12.1/quartus/bin/jre/bin/java.exe" -Xmx512M -classpath "c:/altera/12.1/quartus/sopc_builder/bin/sopc_builder.jar;c:/altera/12.1/quartus/sopc_builder/bin/PinAssigner.jar;c:/altera/12.1/quartus/sopc_builder/bin/sopc_wizard.jar;c:/altera/12.1/quartus/sopc_builder/bin/jptf.jar" sopc_builder.sopc_builder  -d"c:/altera/12.1/quartus/sopc_builder" -notalkback=1 -projectnameyysystem.qpf -projectpathC:/Users/RANDIKA/AppData/Local/Temp/alt9370_6345438422393240420.dir/0232_sopclgen  --generate C:/Users/RANDIKA/AppData/Local/Temp/alt9370_6345438422393240420.dir/0232_sopclgen/yysystem.v --quartus_dir="c:/altera/12.1/quartus" --sopc_perl="c:/altera/12.1/quartus/bin/perl" --sopc_lib_path="++c:/altera/12.1/quartus/../ip/altera/sopc_builder_ip+c:/altera/12.1/quartus/../ip/altera/nios2_ip"
+No .sopc_builder configuration file(!)
+.
+# 2023.01.13 18:17:34 (*) Success: sopc_builder finished.
+Info: data_mem_2: "SoC" instantiated altera_avalon_onchip_memory2 "data_mem_2"
+Info: cpu_2: Starting RTL generation for module 'SoC_cpu_2'
+Info: cpu_2:   Generation command is [exec C:/altera/12.1/quartus/../ip/altera/nios2_ip/altera_nios2/eperl.exe -I C:/altera/12.1/quartus/common/ip/altera/common/perl/5.8.3 -I C:/altera/12.1/quartus/sopc_builder/bin/europa -I C:/altera/12.1/quartus/sopc_builder/bin/perl_lib -I C:/altera/12.1/quartus/sopc_builder/bin -I C:/altera/12.1/quartus/../ip/altera/nios2_ip/altera_nios2/cpu_lib -I C:/altera/12.1/quartus/../ip/altera/nios2_ip/altera_nios2/nios_lib -I C:/altera/12.1/quartus/../ip/altera/nios2_ip/altera_nios2 -I C:/altera/12.1/quartus/../ip/altera/nios2_ip/altera_nios2 -- C:/altera/12.1/quartus/../ip/altera/nios2_ip/altera_nios2/generate_rtl.epl --name=SoC_cpu_2 --dir=C:/Users/RANDIKA/AppData/Local/Temp/alt9370_6345438422393240420.dir/0233_cpu_2_gen/ --quartus_dir=C:/altera/12.1/quartus --verilog --config=C:/Users/RANDIKA/AppData/Local/Temp/alt9370_6345438422393240420.dir/0233_cpu_2_gen//SoC_cpu_2_processor_configuration.pl  --do_build_sim=0    --bogus  ]
+Info: cpu_2: # 2023.01.13 18:17:35 (*) Starting Nios II generation
+Info: cpu_2: # 2023.01.13 18:17:35 (*)   Checking for plaintext license.
+Info: cpu_2: # 2023.01.13 18:17:38 (*)   Plaintext license not found.
+Info: cpu_2: # 2023.01.13 18:17:38 (*)   Checking for encrypted license (non-evaluation).
+Info: cpu_2: # 2023.01.13 18:17:42 (*)   Encrypted license found.  SOF will not be time-limited.
+Info: cpu_2: # 2023.01.13 18:17:42 (*)   Elaborating CPU configuration settings
+Info: cpu_2: # 2023.01.13 18:17:42 (*)   Creating all objects for CPU
+Info: cpu_2: # 2023.01.13 18:17:43 (*)     Pipeline frontend
+Info: cpu_2: # 2023.01.13 18:17:44 (*)   Generating RTL from CPU objects
+Info: cpu_2: # 2023.01.13 18:17:47 (*)   Creating encrypted RTL
+Info: cpu_2: # 2023.01.13 18:17:48 (*) Done Nios II generation
+Info: cpu_2: Done RTL generation for module 'SoC_cpu_2'
+Info: cpu_2: "SoC" instantiated altera_nios2_qsys "cpu_2"
+Info: Starting classic module elaboration.
+      1 [main] sh 4260 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Qt: Untested Windows version 6.2 detected!
+"c:/altera/12.1/quartus/bin/jre/bin/java.exe" -Xmx512M -classpath "c:/altera/12.1/quartus/sopc_builder/bin/sopc_builder.jar;c:/altera/12.1/quartus/sopc_builder/bin/PinAssigner.jar;c:/altera/12.1/quartus/sopc_builder/bin/sopc_wizard.jar;c:/altera/12.1/quartus/sopc_builder/bin/jptf.jar" sopc_builder.sopc_builder  -d"c:/altera/12.1/quartus/sopc_builder" -notalkback=1 -projectnameyysystem.qpf -projectpathC:/Users/RANDIKA/AppData/Local/Temp/alt9370_6345438422393240420.dir/0234_sopclgen  --no_splash --refresh C:/Users/RANDIKA/AppData/Local/Temp/alt9370_6345438422393240420.dir/0234_sopclgen/yysystem.v --quartus_dir="c:/altera/12.1/quartus" --sopc_perl="c:/altera/12.1/quartus/bin/perl" --sopc_lib_path="++c:/altera/12.1/quartus/../ip/altera/sopc_builder_ip+c:/altera/12.1/quartus/../ip/altera/nios2_ip"
+Info: Finished elaborating classic module.
+Executing: C:/altera/12.1/quartus//sopc_builder/bin/sopc_builder --classic --generate C:/Users/RANDIKA/AppData/Local/Temp/alt9370_6345438422393240420.dir/0234_sopclgen/yysystem.ptf
+Info: Running sopc_builder...
+      1 [main] sh 8696 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Qt: Untested Windows version 6.2 detected!
+"c:/altera/12.1/quartus/bin/jre/bin/java.exe" -Xmx512M -classpath "c:/altera/12.1/quartus/sopc_builder/bin/sopc_builder.jar;c:/altera/12.1/quartus/sopc_builder/bin/PinAssigner.jar;c:/altera/12.1/quartus/sopc_builder/bin/sopc_wizard.jar;c:/altera/12.1/quartus/sopc_builder/bin/jptf.jar" sopc_builder.sopc_builder  -d"c:/altera/12.1/quartus/sopc_builder" -notalkback=1 -projectnameyysystem.qpf -projectpathC:/Users/RANDIKA/AppData/Local/Temp/alt9370_6345438422393240420.dir/0234_sopclgen  --generate C:/Users/RANDIKA/AppData/Local/Temp/alt9370_6345438422393240420.dir/0234_sopclgen/yysystem.v --quartus_dir="c:/altera/12.1/quartus" --sopc_perl="c:/altera/12.1/quartus/bin/perl" --sopc_lib_path="++c:/altera/12.1/quartus/../ip/altera/sopc_builder_ip+c:/altera/12.1/quartus/../ip/altera/nios2_ip"
+No .sopc_builder configuration file(!)
+.
+# 2023.01.13 18:17:54 (*) Success: sopc_builder finished.
+Info: instruction_mem_3: "SoC" instantiated altera_avalon_onchip_memory2 "instruction_mem_3"
+Info: Starting classic module elaboration.
+      1 [main] sh 1328 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Qt: Untested Windows version 6.2 detected!
+"c:/altera/12.1/quartus/bin/jre/bin/java.exe" -Xmx512M -classpath "c:/altera/12.1/quartus/sopc_builder/bin/sopc_builder.jar;c:/altera/12.1/quartus/sopc_builder/bin/PinAssigner.jar;c:/altera/12.1/quartus/sopc_builder/bin/sopc_wizard.jar;c:/altera/12.1/quartus/sopc_builder/bin/jptf.jar" sopc_builder.sopc_builder  -d"c:/altera/12.1/quartus/sopc_builder" -notalkback=1 -projectnameyysystem.qpf -projectpathC:/Users/RANDIKA/AppData/Local/Temp/alt9370_6345438422393240420.dir/0235_sopclgen  --no_splash --refresh C:/Users/RANDIKA/AppData/Local/Temp/alt9370_6345438422393240420.dir/0235_sopclgen/yysystem.v --quartus_dir="c:/altera/12.1/quartus" --sopc_perl="c:/altera/12.1/quartus/bin/perl" --sopc_lib_path="++c:/altera/12.1/quartus/../ip/altera/sopc_builder_ip+c:/altera/12.1/quartus/../ip/altera/nios2_ip"
+Info: Finished elaborating classic module.
+Executing: C:/altera/12.1/quartus//sopc_builder/bin/sopc_builder --classic --generate C:/Users/RANDIKA/AppData/Local/Temp/alt9370_6345438422393240420.dir/0235_sopclgen/yysystem.ptf
+Info: Running sopc_builder...
+      1 [main] sh 7696 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Qt: Untested Windows version 6.2 detected!
+"c:/altera/12.1/quartus/bin/jre/bin/java.exe" -Xmx512M -classpath "c:/altera/12.1/quartus/sopc_builder/bin/sopc_builder.jar;c:/altera/12.1/quartus/sopc_builder/bin/PinAssigner.jar;c:/altera/12.1/quartus/sopc_builder/bin/sopc_wizard.jar;c:/altera/12.1/quartus/sopc_builder/bin/jptf.jar" sopc_builder.sopc_builder  -d"c:/altera/12.1/quartus/sopc_builder" -notalkback=1 -projectnameyysystem.qpf -projectpathC:/Users/RANDIKA/AppData/Local/Temp/alt9370_6345438422393240420.dir/0235_sopclgen  --generate C:/Users/RANDIKA/AppData/Local/Temp/alt9370_6345438422393240420.dir/0235_sopclgen/yysystem.v --quartus_dir="c:/altera/12.1/quartus" --sopc_perl="c:/altera/12.1/quartus/bin/perl" --sopc_lib_path="++c:/altera/12.1/quartus/../ip/altera/sopc_builder_ip+c:/altera/12.1/quartus/../ip/altera/nios2_ip"
+No .sopc_builder configuration file(!)
+.
+# 2023.01.13 18:18:00 (*) Success: sopc_builder finished.
+Info: data_mem_3: "SoC" instantiated altera_avalon_onchip_memory2 "data_mem_3"
+Info: cpu_3: Starting RTL generation for module 'SoC_cpu_3'
+Info: cpu_3:   Generation command is [exec C:/altera/12.1/quartus/../ip/altera/nios2_ip/altera_nios2/eperl.exe -I C:/altera/12.1/quartus/common/ip/altera/common/perl/5.8.3 -I C:/altera/12.1/quartus/sopc_builder/bin/europa -I C:/altera/12.1/quartus/sopc_builder/bin/perl_lib -I C:/altera/12.1/quartus/sopc_builder/bin -I C:/altera/12.1/quartus/../ip/altera/nios2_ip/altera_nios2/cpu_lib -I C:/altera/12.1/quartus/../ip/altera/nios2_ip/altera_nios2/nios_lib -I C:/altera/12.1/quartus/../ip/altera/nios2_ip/altera_nios2 -I C:/altera/12.1/quartus/../ip/altera/nios2_ip/altera_nios2 -- C:/altera/12.1/quartus/../ip/altera/nios2_ip/altera_nios2/generate_rtl.epl --name=SoC_cpu_3 --dir=C:/Users/RANDIKA/AppData/Local/Temp/alt9370_6345438422393240420.dir/0236_cpu_3_gen/ --quartus_dir=C:/altera/12.1/quartus --verilog --config=C:/Users/RANDIKA/AppData/Local/Temp/alt9370_6345438422393240420.dir/0236_cpu_3_gen//SoC_cpu_3_processor_configuration.pl  --do_build_sim=0    --bogus  ]
+Info: cpu_3: # 2023.01.13 18:18:01 (*) Starting Nios II generation
+Info: cpu_3: # 2023.01.13 18:18:01 (*)   Checking for plaintext license.
+Info: cpu_3: # 2023.01.13 18:18:05 (*)   Plaintext license not found.
+Info: cpu_3: # 2023.01.13 18:18:05 (*)   Checking for encrypted license (non-evaluation).
+Info: cpu_3: # 2023.01.13 18:18:09 (*)   Encrypted license found.  SOF will not be time-limited.
+Info: cpu_3: # 2023.01.13 18:18:09 (*)   Elaborating CPU configuration settings
+Info: cpu_3: # 2023.01.13 18:18:09 (*)   Creating all objects for CPU
+Info: cpu_3: # 2023.01.13 18:18:10 (*)     Pipeline frontend
+Info: cpu_3: # 2023.01.13 18:18:11 (*)   Generating RTL from CPU objects
+Info: cpu_3: # 2023.01.13 18:18:14 (*)   Creating encrypted RTL
+Info: cpu_3: # 2023.01.13 18:18:15 (*) Done Nios II generation
+Info: cpu_3: Done RTL generation for module 'SoC_cpu_3'
+Info: cpu_3: "SoC" instantiated altera_nios2_qsys "cpu_3"
+Info: Starting classic module elaboration.
+      1 [main] sh 688 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Qt: Untested Windows version 6.2 detected!
+"c:/altera/12.1/quartus/bin/jre/bin/java.exe" -Xmx512M -classpath "c:/altera/12.1/quartus/sopc_builder/bin/sopc_builder.jar;c:/altera/12.1/quartus/sopc_builder/bin/PinAssigner.jar;c:/altera/12.1/quartus/sopc_builder/bin/sopc_wizard.jar;c:/altera/12.1/quartus/sopc_builder/bin/jptf.jar" sopc_builder.sopc_builder  -d"c:/altera/12.1/quartus/sopc_builder" -notalkback=1 -projectnameyysystem.qpf -projectpathC:/Users/RANDIKA/AppData/Local/Temp/alt9370_6345438422393240420.dir/0237_sopclgen  --no_splash --refresh C:/Users/RANDIKA/AppData/Local/Temp/alt9370_6345438422393240420.dir/0237_sopclgen/yysystem.v --quartus_dir="c:/altera/12.1/quartus" --sopc_perl="c:/altera/12.1/quartus/bin/perl" --sopc_lib_path="++c:/altera/12.1/quartus/../ip/altera/sopc_builder_ip+c:/altera/12.1/quartus/../ip/altera/nios2_ip"
+Info: Finished elaborating classic module.
+Executing: C:/altera/12.1/quartus//sopc_builder/bin/sopc_builder --classic --generate C:/Users/RANDIKA/AppData/Local/Temp/alt9370_6345438422393240420.dir/0237_sopclgen/yysystem.ptf
+Info: Running sopc_builder...
+      1 [main] sh 472 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Qt: Untested Windows version 6.2 detected!
+"c:/altera/12.1/quartus/bin/jre/bin/java.exe" -Xmx512M -classpath "c:/altera/12.1/quartus/sopc_builder/bin/sopc_builder.jar;c:/altera/12.1/quartus/sopc_builder/bin/PinAssigner.jar;c:/altera/12.1/quartus/sopc_builder/bin/sopc_wizard.jar;c:/altera/12.1/quartus/sopc_builder/bin/jptf.jar" sopc_builder.sopc_builder  -d"c:/altera/12.1/quartus/sopc_builder" -notalkback=1 -projectnameyysystem.qpf -projectpathC:/Users/RANDIKA/AppData/Local/Temp/alt9370_6345438422393240420.dir/0237_sopclgen  --generate C:/Users/RANDIKA/AppData/Local/Temp/alt9370_6345438422393240420.dir/0237_sopclgen/yysystem.v --quartus_dir="c:/altera/12.1/quartus" --sopc_perl="c:/altera/12.1/quartus/bin/perl" --sopc_lib_path="++c:/altera/12.1/quartus/../ip/altera/sopc_builder_ip+c:/altera/12.1/quartus/../ip/altera/nios2_ip"
+No .sopc_builder configuration file(!)
+.
+# 2023.01.13 18:18:21 (*) Success: sopc_builder finished.
+Info: instruction_mem_4: "SoC" instantiated altera_avalon_onchip_memory2 "instruction_mem_4"
+Info: Starting classic module elaboration.
+      1 [main] sh 3924 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Qt: Untested Windows version 6.2 detected!
+"c:/altera/12.1/quartus/bin/jre/bin/java.exe" -Xmx512M -classpath "c:/altera/12.1/quartus/sopc_builder/bin/sopc_builder.jar;c:/altera/12.1/quartus/sopc_builder/bin/PinAssigner.jar;c:/altera/12.1/quartus/sopc_builder/bin/sopc_wizard.jar;c:/altera/12.1/quartus/sopc_builder/bin/jptf.jar" sopc_builder.sopc_builder  -d"c:/altera/12.1/quartus/sopc_builder" -notalkback=1 -projectnameyysystem.qpf -projectpathC:/Users/RANDIKA/AppData/Local/Temp/alt9370_6345438422393240420.dir/0238_sopclgen  --no_splash --refresh C:/Users/RANDIKA/AppData/Local/Temp/alt9370_6345438422393240420.dir/0238_sopclgen/yysystem.v --quartus_dir="c:/altera/12.1/quartus" --sopc_perl="c:/altera/12.1/quartus/bin/perl" --sopc_lib_path="++c:/altera/12.1/quartus/../ip/altera/sopc_builder_ip+c:/altera/12.1/quartus/../ip/altera/nios2_ip"
+Info: Finished elaborating classic module.
+Executing: C:/altera/12.1/quartus//sopc_builder/bin/sopc_builder --classic --generate C:/Users/RANDIKA/AppData/Local/Temp/alt9370_6345438422393240420.dir/0238_sopclgen/yysystem.ptf
+Info: Running sopc_builder...
+      1 [main] sh 3980 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Qt: Untested Windows version 6.2 detected!
+"c:/altera/12.1/quartus/bin/jre/bin/java.exe" -Xmx512M -classpath "c:/altera/12.1/quartus/sopc_builder/bin/sopc_builder.jar;c:/altera/12.1/quartus/sopc_builder/bin/PinAssigner.jar;c:/altera/12.1/quartus/sopc_builder/bin/sopc_wizard.jar;c:/altera/12.1/quartus/sopc_builder/bin/jptf.jar" sopc_builder.sopc_builder  -d"c:/altera/12.1/quartus/sopc_builder" -notalkback=1 -projectnameyysystem.qpf -projectpathC:/Users/RANDIKA/AppData/Local/Temp/alt9370_6345438422393240420.dir/0238_sopclgen  --generate C:/Users/RANDIKA/AppData/Local/Temp/alt9370_6345438422393240420.dir/0238_sopclgen/yysystem.v --quartus_dir="c:/altera/12.1/quartus" --sopc_perl="c:/altera/12.1/quartus/bin/perl" --sopc_lib_path="++c:/altera/12.1/quartus/../ip/altera/sopc_builder_ip+c:/altera/12.1/quartus/../ip/altera/nios2_ip"
+No .sopc_builder configuration file(!)
+.
+# 2023.01.13 18:18:27 (*) Success: sopc_builder finished.
+Info: data_mem_4: "SoC" instantiated altera_avalon_onchip_memory2 "data_mem_4"
+Info: cpu_4: Starting RTL generation for module 'SoC_cpu_4'
+Info: cpu_4:   Generation command is [exec C:/altera/12.1/quartus/../ip/altera/nios2_ip/altera_nios2/eperl.exe -I C:/altera/12.1/quartus/common/ip/altera/common/perl/5.8.3 -I C:/altera/12.1/quartus/sopc_builder/bin/europa -I C:/altera/12.1/quartus/sopc_builder/bin/perl_lib -I C:/altera/12.1/quartus/sopc_builder/bin -I C:/altera/12.1/quartus/../ip/altera/nios2_ip/altera_nios2/cpu_lib -I C:/altera/12.1/quartus/../ip/altera/nios2_ip/altera_nios2/nios_lib -I C:/altera/12.1/quartus/../ip/altera/nios2_ip/altera_nios2 -I C:/altera/12.1/quartus/../ip/altera/nios2_ip/altera_nios2 -- C:/altera/12.1/quartus/../ip/altera/nios2_ip/altera_nios2/generate_rtl.epl --name=SoC_cpu_4 --dir=C:/Users/RANDIKA/AppData/Local/Temp/alt9370_6345438422393240420.dir/0239_cpu_4_gen/ --quartus_dir=C:/altera/12.1/quartus --verilog --config=C:/Users/RANDIKA/AppData/Local/Temp/alt9370_6345438422393240420.dir/0239_cpu_4_gen//SoC_cpu_4_processor_configuration.pl  --do_build_sim=0    --bogus  ]
+Info: cpu_4: # 2023.01.13 18:18:28 (*) Starting Nios II generation
+Info: cpu_4: # 2023.01.13 18:18:28 (*)   Checking for plaintext license.
+Info: cpu_4: # 2023.01.13 18:18:33 (*)   Plaintext license not found.
+Info: cpu_4: # 2023.01.13 18:18:33 (*)   Checking for encrypted license (non-evaluation).
+Info: cpu_4: # 2023.01.13 18:18:36 (*)   Encrypted license found.  SOF will not be time-limited.
+Info: cpu_4: # 2023.01.13 18:18:36 (*)   Elaborating CPU configuration settings
+Info: cpu_4: # 2023.01.13 18:18:36 (*)   Creating all objects for CPU
+Info: cpu_4: # 2023.01.13 18:18:37 (*)     Pipeline frontend
+Info: cpu_4: # 2023.01.13 18:18:39 (*)   Generating RTL from CPU objects
+Info: cpu_4: # 2023.01.13 18:18:41 (*)   Creating encrypted RTL
+Info: cpu_4: # 2023.01.13 18:18:42 (*) Done Nios II generation
+Info: cpu_4: Done RTL generation for module 'SoC_cpu_4'
+Info: cpu_4: "SoC" instantiated altera_nios2_qsys "cpu_4"
+Info: Starting classic module elaboration.
+      1 [main] sh 5996 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Qt: Untested Windows version 6.2 detected!
+"c:/altera/12.1/quartus/bin/jre/bin/java.exe" -Xmx512M -classpath "c:/altera/12.1/quartus/sopc_builder/bin/sopc_builder.jar;c:/altera/12.1/quartus/sopc_builder/bin/PinAssigner.jar;c:/altera/12.1/quartus/sopc_builder/bin/sopc_wizard.jar;c:/altera/12.1/quartus/sopc_builder/bin/jptf.jar" sopc_builder.sopc_builder  -d"c:/altera/12.1/quartus/sopc_builder" -notalkback=1 -projectnameyysystem.qpf -projectpathC:/Users/RANDIKA/AppData/Local/Temp/alt9370_6345438422393240420.dir/0240_sopclgen  --no_splash --refresh C:/Users/RANDIKA/AppData/Local/Temp/alt9370_6345438422393240420.dir/0240_sopclgen/yysystem.v --quartus_dir="c:/altera/12.1/quartus" --sopc_perl="c:/altera/12.1/quartus/bin/perl" --sopc_lib_path="++c:/altera/12.1/quartus/../ip/altera/sopc_builder_ip+c:/altera/12.1/quartus/../ip/altera/nios2_ip"
+Info: Finished elaborating classic module.
+Executing: C:/altera/12.1/quartus//sopc_builder/bin/sopc_builder --classic --generate C:/Users/RANDIKA/AppData/Local/Temp/alt9370_6345438422393240420.dir/0240_sopclgen/yysystem.ptf
+Info: Running sopc_builder...
+      1 [main] sh 2608 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Qt: Untested Windows version 6.2 detected!
+"c:/altera/12.1/quartus/bin/jre/bin/java.exe" -Xmx512M -classpath "c:/altera/12.1/quartus/sopc_builder/bin/sopc_builder.jar;c:/altera/12.1/quartus/sopc_builder/bin/PinAssigner.jar;c:/altera/12.1/quartus/sopc_builder/bin/sopc_wizard.jar;c:/altera/12.1/quartus/sopc_builder/bin/jptf.jar" sopc_builder.sopc_builder  -d"c:/altera/12.1/quartus/sopc_builder" -notalkback=1 -projectnameyysystem.qpf -projectpathC:/Users/RANDIKA/AppData/Local/Temp/alt9370_6345438422393240420.dir/0240_sopclgen  --generate C:/Users/RANDIKA/AppData/Local/Temp/alt9370_6345438422393240420.dir/0240_sopclgen/yysystem.v --quartus_dir="c:/altera/12.1/quartus" --sopc_perl="c:/altera/12.1/quartus/bin/perl" --sopc_lib_path="++c:/altera/12.1/quartus/../ip/altera/sopc_builder_ip+c:/altera/12.1/quartus/../ip/altera/nios2_ip"
+No .sopc_builder configuration file(!)
+.
+# 2023.01.13 18:18:48 (*) Success: sopc_builder finished.
+Info: instruction_mem_5: "SoC" instantiated altera_avalon_onchip_memory2 "instruction_mem_5"
+Info: Starting classic module elaboration.
+      1 [main] sh 2584 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Qt: Untested Windows version 6.2 detected!
+"c:/altera/12.1/quartus/bin/jre/bin/java.exe" -Xmx512M -classpath "c:/altera/12.1/quartus/sopc_builder/bin/sopc_builder.jar;c:/altera/12.1/quartus/sopc_builder/bin/PinAssigner.jar;c:/altera/12.1/quartus/sopc_builder/bin/sopc_wizard.jar;c:/altera/12.1/quartus/sopc_builder/bin/jptf.jar" sopc_builder.sopc_builder  -d"c:/altera/12.1/quartus/sopc_builder" -notalkback=1 -projectnameyysystem.qpf -projectpathC:/Users/RANDIKA/AppData/Local/Temp/alt9370_6345438422393240420.dir/0241_sopclgen  --no_splash --refresh C:/Users/RANDIKA/AppData/Local/Temp/alt9370_6345438422393240420.dir/0241_sopclgen/yysystem.v --quartus_dir="c:/altera/12.1/quartus" --sopc_perl="c:/altera/12.1/quartus/bin/perl" --sopc_lib_path="++c:/altera/12.1/quartus/../ip/altera/sopc_builder_ip+c:/altera/12.1/quartus/../ip/altera/nios2_ip"
+Info: Finished elaborating classic module.
+Executing: C:/altera/12.1/quartus//sopc_builder/bin/sopc_builder --classic --generate C:/Users/RANDIKA/AppData/Local/Temp/alt9370_6345438422393240420.dir/0241_sopclgen/yysystem.ptf
+Info: Running sopc_builder...
+      1 [main] sh 8332 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Qt: Untested Windows version 6.2 detected!
+"c:/altera/12.1/quartus/bin/jre/bin/java.exe" -Xmx512M -classpath "c:/altera/12.1/quartus/sopc_builder/bin/sopc_builder.jar;c:/altera/12.1/quartus/sopc_builder/bin/PinAssigner.jar;c:/altera/12.1/quartus/sopc_builder/bin/sopc_wizard.jar;c:/altera/12.1/quartus/sopc_builder/bin/jptf.jar" sopc_builder.sopc_builder  -d"c:/altera/12.1/quartus/sopc_builder" -notalkback=1 -projectnameyysystem.qpf -projectpathC:/Users/RANDIKA/AppData/Local/Temp/alt9370_6345438422393240420.dir/0241_sopclgen  --generate C:/Users/RANDIKA/AppData/Local/Temp/alt9370_6345438422393240420.dir/0241_sopclgen/yysystem.v --quartus_dir="c:/altera/12.1/quartus" --sopc_perl="c:/altera/12.1/quartus/bin/perl" --sopc_lib_path="++c:/altera/12.1/quartus/../ip/altera/sopc_builder_ip+c:/altera/12.1/quartus/../ip/altera/nios2_ip"
+No .sopc_builder configuration file(!)
+.
+# 2023.01.13 18:18:55 (*) Success: sopc_builder finished.
+Info: data_mem_5: "SoC" instantiated altera_avalon_onchip_memory2 "data_mem_5"
+Info: cpu_5: Starting RTL generation for module 'SoC_cpu_5'
+Info: cpu_5:   Generation command is [exec C:/altera/12.1/quartus/../ip/altera/nios2_ip/altera_nios2/eperl.exe -I C:/altera/12.1/quartus/common/ip/altera/common/perl/5.8.3 -I C:/altera/12.1/quartus/sopc_builder/bin/europa -I C:/altera/12.1/quartus/sopc_builder/bin/perl_lib -I C:/altera/12.1/quartus/sopc_builder/bin -I C:/altera/12.1/quartus/../ip/altera/nios2_ip/altera_nios2/cpu_lib -I C:/altera/12.1/quartus/../ip/altera/nios2_ip/altera_nios2/nios_lib -I C:/altera/12.1/quartus/../ip/altera/nios2_ip/altera_nios2 -I C:/altera/12.1/quartus/../ip/altera/nios2_ip/altera_nios2 -- C:/altera/12.1/quartus/../ip/altera/nios2_ip/altera_nios2/generate_rtl.epl --name=SoC_cpu_5 --dir=C:/Users/RANDIKA/AppData/Local/Temp/alt9370_6345438422393240420.dir/0242_cpu_5_gen/ --quartus_dir=C:/altera/12.1/quartus --verilog --config=C:/Users/RANDIKA/AppData/Local/Temp/alt9370_6345438422393240420.dir/0242_cpu_5_gen//SoC_cpu_5_processor_configuration.pl  --do_build_sim=0    --bogus  ]
+Info: cpu_5: # 2023.01.13 18:18:56 (*) Starting Nios II generation
+Info: cpu_5: # 2023.01.13 18:18:56 (*)   Checking for plaintext license.
+Info: cpu_5: # 2023.01.13 18:19:00 (*)   Plaintext license not found.
+Info: cpu_5: # 2023.01.13 18:19:00 (*)   Checking for encrypted license (non-evaluation).
+Info: cpu_5: # 2023.01.13 18:19:04 (*)   Encrypted license found.  SOF will not be time-limited.
+Info: cpu_5: # 2023.01.13 18:19:04 (*)   Elaborating CPU configuration settings
+Info: cpu_5: # 2023.01.13 18:19:04 (*)   Creating all objects for CPU
+Info: cpu_5: # 2023.01.13 18:19:05 (*)     Pipeline frontend
+Info: cpu_5: # 2023.01.13 18:19:06 (*)   Generating RTL from CPU objects
+Info: cpu_5: # 2023.01.13 18:19:09 (*)   Creating encrypted RTL
+Info: cpu_5: # 2023.01.13 18:19:10 (*) Done Nios II generation
+Info: cpu_5: Done RTL generation for module 'SoC_cpu_5'
+Info: cpu_5: "SoC" instantiated altera_nios2_qsys "cpu_5"
+Info: Starting classic module elaboration.
+      1 [main] sh 2860 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Qt: Untested Windows version 6.2 detected!
+"c:/altera/12.1/quartus/bin/jre/bin/java.exe" -Xmx512M -classpath "c:/altera/12.1/quartus/sopc_builder/bin/sopc_builder.jar;c:/altera/12.1/quartus/sopc_builder/bin/PinAssigner.jar;c:/altera/12.1/quartus/sopc_builder/bin/sopc_wizard.jar;c:/altera/12.1/quartus/sopc_builder/bin/jptf.jar" sopc_builder.sopc_builder  -d"c:/altera/12.1/quartus/sopc_builder" -notalkback=1 -projectnameyysystem.qpf -projectpathC:/Users/RANDIKA/AppData/Local/Temp/alt9370_6345438422393240420.dir/0243_sopclgen  --no_splash --refresh C:/Users/RANDIKA/AppData/Local/Temp/alt9370_6345438422393240420.dir/0243_sopclgen/yysystem.v --quartus_dir="c:/altera/12.1/quartus" --sopc_perl="c:/altera/12.1/quartus/bin/perl" --sopc_lib_path="++c:/altera/12.1/quartus/../ip/altera/sopc_builder_ip+c:/altera/12.1/quartus/../ip/altera/nios2_ip"
+Info: Finished elaborating classic module.
+Executing: C:/altera/12.1/quartus//sopc_builder/bin/sopc_builder --classic --generate C:/Users/RANDIKA/AppData/Local/Temp/alt9370_6345438422393240420.dir/0243_sopclgen/yysystem.ptf
+Info: Running sopc_builder...
+      1 [main] sh 4060 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Qt: Untested Windows version 6.2 detected!
+"c:/altera/12.1/quartus/bin/jre/bin/java.exe" -Xmx512M -classpath "c:/altera/12.1/quartus/sopc_builder/bin/sopc_builder.jar;c:/altera/12.1/quartus/sopc_builder/bin/PinAssigner.jar;c:/altera/12.1/quartus/sopc_builder/bin/sopc_wizard.jar;c:/altera/12.1/quartus/sopc_builder/bin/jptf.jar" sopc_builder.sopc_builder  -d"c:/altera/12.1/quartus/sopc_builder" -notalkback=1 -projectnameyysystem.qpf -projectpathC:/Users/RANDIKA/AppData/Local/Temp/alt9370_6345438422393240420.dir/0243_sopclgen  --generate C:/Users/RANDIKA/AppData/Local/Temp/alt9370_6345438422393240420.dir/0243_sopclgen/yysystem.v --quartus_dir="c:/altera/12.1/quartus" --sopc_perl="c:/altera/12.1/quartus/bin/perl" --sopc_lib_path="++c:/altera/12.1/quartus/../ip/altera/sopc_builder_ip+c:/altera/12.1/quartus/../ip/altera/nios2_ip"
+No .sopc_builder configuration file(!)
+.
+# 2023.01.13 18:19:17 (*) Success: sopc_builder finished.
+Info: fifo_0_stage1_to_2: "SoC" instantiated altera_avalon_fifo "fifo_0_stage1_to_2"
+Info: Starting classic module elaboration.
+      1 [main] sh 3284 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Qt: Untested Windows version 6.2 detected!
+"c:/altera/12.1/quartus/bin/jre/bin/java.exe" -Xmx512M -classpath "c:/altera/12.1/quartus/sopc_builder/bin/sopc_builder.jar;c:/altera/12.1/quartus/sopc_builder/bin/PinAssigner.jar;c:/altera/12.1/quartus/sopc_builder/bin/sopc_wizard.jar;c:/altera/12.1/quartus/sopc_builder/bin/jptf.jar" sopc_builder.sopc_builder  -d"c:/altera/12.1/quartus/sopc_builder" -notalkback=1 -projectnameyysystem.qpf -projectpathC:/Users/RANDIKA/AppData/Local/Temp/alt9370_6345438422393240420.dir/0244_sopclgen  --no_splash --refresh C:/Users/RANDIKA/AppData/Local/Temp/alt9370_6345438422393240420.dir/0244_sopclgen/yysystem.v --quartus_dir="c:/altera/12.1/quartus" --sopc_perl="c:/altera/12.1/quartus/bin/perl" --sopc_lib_path="++c:/altera/12.1/quartus/../ip/altera/sopc_builder_ip+c:/altera/12.1/quartus/../ip/altera/nios2_ip"
+Info: Finished elaborating classic module.
+Executing: C:/altera/12.1/quartus//sopc_builder/bin/sopc_builder --classic --generate C:/Users/RANDIKA/AppData/Local/Temp/alt9370_6345438422393240420.dir/0244_sopclgen/yysystem.ptf
+Info: Running sopc_builder...
+      1 [main] sh 1460 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Qt: Untested Windows version 6.2 detected!
+"c:/altera/12.1/quartus/bin/jre/bin/java.exe" -Xmx512M -classpath "c:/altera/12.1/quartus/sopc_builder/bin/sopc_builder.jar;c:/altera/12.1/quartus/sopc_builder/bin/PinAssigner.jar;c:/altera/12.1/quartus/sopc_builder/bin/sopc_wizard.jar;c:/altera/12.1/quartus/sopc_builder/bin/jptf.jar" sopc_builder.sopc_builder  -d"c:/altera/12.1/quartus/sopc_builder" -notalkback=1 -projectnameyysystem.qpf -projectpathC:/Users/RANDIKA/AppData/Local/Temp/alt9370_6345438422393240420.dir/0244_sopclgen  --generate C:/Users/RANDIKA/AppData/Local/Temp/alt9370_6345438422393240420.dir/0244_sopclgen/yysystem.v --quartus_dir="c:/altera/12.1/quartus" --sopc_perl="c:/altera/12.1/quartus/bin/perl" --sopc_lib_path="++c:/altera/12.1/quartus/../ip/altera/sopc_builder_ip+c:/altera/12.1/quartus/../ip/altera/nios2_ip"
+No .sopc_builder configuration file(!)
+.
+# 2023.01.13 18:19:24 (*) Success: sopc_builder finished.
+Info: fifo_stage1_to_4: "SoC" instantiated altera_avalon_fifo "fifo_stage1_to_4"
+Info: Starting classic module elaboration.
+      1 [main] sh 2668 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Qt: Untested Windows version 6.2 detected!
+"c:/altera/12.1/quartus/bin/jre/bin/java.exe" -Xmx512M -classpath "c:/altera/12.1/quartus/sopc_builder/bin/sopc_builder.jar;c:/altera/12.1/quartus/sopc_builder/bin/PinAssigner.jar;c:/altera/12.1/quartus/sopc_builder/bin/sopc_wizard.jar;c:/altera/12.1/quartus/sopc_builder/bin/jptf.jar" sopc_builder.sopc_builder  -d"c:/altera/12.1/quartus/sopc_builder" -notalkback=1 -projectnameyysystem.qpf -projectpathC:/Users/RANDIKA/AppData/Local/Temp/alt9370_6345438422393240420.dir/0245_sopclgen  --no_splash --refresh C:/Users/RANDIKA/AppData/Local/Temp/alt9370_6345438422393240420.dir/0245_sopclgen/yysystem.v --quartus_dir="c:/altera/12.1/quartus" --sopc_perl="c:/altera/12.1/quartus/bin/perl" --sopc_lib_path="++c:/altera/12.1/quartus/../ip/altera/sopc_builder_ip+c:/altera/12.1/quartus/../ip/altera/nios2_ip"
+Info: Finished elaborating classic module.
+Executing: C:/altera/12.1/quartus//sopc_builder/bin/sopc_builder --classic --generate C:/Users/RANDIKA/AppData/Local/Temp/alt9370_6345438422393240420.dir/0245_sopclgen/yysystem.ptf
+Info: Running sopc_builder...
+      1 [main] sh 2316 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Qt: Untested Windows version 6.2 detected!
+"c:/altera/12.1/quartus/bin/jre/bin/java.exe" -Xmx512M -classpath "c:/altera/12.1/quartus/sopc_builder/bin/sopc_builder.jar;c:/altera/12.1/quartus/sopc_builder/bin/PinAssigner.jar;c:/altera/12.1/quartus/sopc_builder/bin/sopc_wizard.jar;c:/altera/12.1/quartus/sopc_builder/bin/jptf.jar" sopc_builder.sopc_builder  -d"c:/altera/12.1/quartus/sopc_builder" -notalkback=1 -projectnameyysystem.qpf -projectpathC:/Users/RANDIKA/AppData/Local/Temp/alt9370_6345438422393240420.dir/0245_sopclgen  --generate C:/Users/RANDIKA/AppData/Local/Temp/alt9370_6345438422393240420.dir/0245_sopclgen/yysystem.v --quartus_dir="c:/altera/12.1/quartus" --sopc_perl="c:/altera/12.1/quartus/bin/perl" --sopc_lib_path="++c:/altera/12.1/quartus/../ip/altera/sopc_builder_ip+c:/altera/12.1/quartus/../ip/altera/nios2_ip"
+No .sopc_builder configuration file(!)
+.
+# 2023.01.13 18:19:32 (*) Success: sopc_builder finished.
+Info: fifo_stage1_to_6: "SoC" instantiated altera_avalon_fifo "fifo_stage1_to_6"
+Info: Starting classic module elaboration.
+      1 [main] sh 9272 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Qt: Untested Windows version 6.2 detected!
+"c:/altera/12.1/quartus/bin/jre/bin/java.exe" -Xmx512M -classpath "c:/altera/12.1/quartus/sopc_builder/bin/sopc_builder.jar;c:/altera/12.1/quartus/sopc_builder/bin/PinAssigner.jar;c:/altera/12.1/quartus/sopc_builder/bin/sopc_wizard.jar;c:/altera/12.1/quartus/sopc_builder/bin/jptf.jar" sopc_builder.sopc_builder  -d"c:/altera/12.1/quartus/sopc_builder" -notalkback=1 -projectnameyysystem.qpf -projectpathC:/Users/RANDIKA/AppData/Local/Temp/alt9370_6345438422393240420.dir/0246_sopclgen  --no_splash --refresh C:/Users/RANDIKA/AppData/Local/Temp/alt9370_6345438422393240420.dir/0246_sopclgen/yysystem.v --quartus_dir="c:/altera/12.1/quartus" --sopc_perl="c:/altera/12.1/quartus/bin/perl" --sopc_lib_path="++c:/altera/12.1/quartus/../ip/altera/sopc_builder_ip+c:/altera/12.1/quartus/../ip/altera/nios2_ip"
+Info: Finished elaborating classic module.
+Executing: C:/altera/12.1/quartus//sopc_builder/bin/sopc_builder --classic --generate C:/Users/RANDIKA/AppData/Local/Temp/alt9370_6345438422393240420.dir/0246_sopclgen/yysystem.ptf
+Info: Running sopc_builder...
+    250 [main] sh 10492 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Qt: Untested Windows version 6.2 detected!
+"c:/altera/12.1/quartus/bin/jre/bin/java.exe" -Xmx512M -classpath "c:/altera/12.1/quartus/sopc_builder/bin/sopc_builder.jar;c:/altera/12.1/quartus/sopc_builder/bin/PinAssigner.jar;c:/altera/12.1/quartus/sopc_builder/bin/sopc_wizard.jar;c:/altera/12.1/quartus/sopc_builder/bin/jptf.jar" sopc_builder.sopc_builder  -d"c:/altera/12.1/quartus/sopc_builder" -notalkback=1 -projectnameyysystem.qpf -projectpathC:/Users/RANDIKA/AppData/Local/Temp/alt9370_6345438422393240420.dir/0246_sopclgen  --generate C:/Users/RANDIKA/AppData/Local/Temp/alt9370_6345438422393240420.dir/0246_sopclgen/yysystem.v --quartus_dir="c:/altera/12.1/quartus" --sopc_perl="c:/altera/12.1/quartus/bin/perl" --sopc_lib_path="++c:/altera/12.1/quartus/../ip/altera/sopc_builder_ip+c:/altera/12.1/quartus/../ip/altera/nios2_ip"
+No .sopc_builder configuration file(!)
+.
+# 2023.01.13 18:19:39 (*) Success: sopc_builder finished.
+Info: fifo_stage2_to_3: "SoC" instantiated altera_avalon_fifo "fifo_stage2_to_3"
+Info: cpu_0_instruction_master_translator: "SoC" instantiated altera_merlin_master_translator "cpu_0_instruction_master_translator"
+Info: cpu_0_jtag_debug_module_translator: "SoC" instantiated altera_merlin_slave_translator "cpu_0_jtag_debug_module_translator"
+Info: cpu_0_instruction_master_translator_avalon_universal_master_0_agent: "SoC" instantiated altera_merlin_master_agent "cpu_0_instruction_master_translator_avalon_universal_master_0_agent"
+Info: cpu_0_jtag_debug_module_translator_avalon_universal_slave_0_agent: "SoC" instantiated altera_merlin_slave_agent "cpu_0_jtag_debug_module_translator_avalon_universal_slave_0_agent"
+Info: cpu_0_jtag_debug_module_translator_avalon_universal_slave_0_agent_rsp_fifo: "SoC" instantiated altera_avalon_sc_fifo "cpu_0_jtag_debug_module_translator_avalon_universal_slave_0_agent_rsp_fifo"
+Info: addr_router: "SoC" instantiated altera_merlin_router "addr_router"
+Info: addr_router_001: "SoC" instantiated altera_merlin_router "addr_router_001"
+Info: addr_router_002: "SoC" instantiated altera_merlin_router "addr_router_002"
+Info: addr_router_003: "SoC" instantiated altera_merlin_router "addr_router_003"
+Info: addr_router_004: "SoC" instantiated altera_merlin_router "addr_router_004"
+Info: addr_router_005: "SoC" instantiated altera_merlin_router "addr_router_005"
+Info: addr_router_006: "SoC" instantiated altera_merlin_router "addr_router_006"
+Info: addr_router_007: "SoC" instantiated altera_merlin_router "addr_router_007"
+Info: addr_router_008: "SoC" instantiated altera_merlin_router "addr_router_008"
+Info: addr_router_009: "SoC" instantiated altera_merlin_router "addr_router_009"
+Info: addr_router_010: "SoC" instantiated altera_merlin_router "addr_router_010"
+Info: addr_router_011: "SoC" instantiated altera_merlin_router "addr_router_011"
+Info: id_router: "SoC" instantiated altera_merlin_router "id_router"
+Info: id_router_003: "SoC" instantiated altera_merlin_router "id_router_003"
+Info: id_router_006: "SoC" instantiated altera_merlin_router "id_router_006"
+Info: id_router_012: "SoC" instantiated altera_merlin_router "id_router_012"
+Info: id_router_014: "SoC" instantiated altera_merlin_router "id_router_014"
+Info: id_router_015: "SoC" instantiated altera_merlin_router "id_router_015"
+Info: id_router_016: "SoC" instantiated altera_merlin_router "id_router_016"
+Info: id_router_017: "SoC" instantiated altera_merlin_router "id_router_017"
+Info: id_router_020: "SoC" instantiated altera_merlin_router "id_router_020"
+Info: id_router_022: "SoC" instantiated altera_merlin_router "id_router_022"
+Info: id_router_024: "SoC" instantiated altera_merlin_router "id_router_024"
+Info: id_router_025: "SoC" instantiated altera_merlin_router "id_router_025"
+Info: id_router_028: "SoC" instantiated altera_merlin_router "id_router_028"
+Info: id_router_031: "SoC" instantiated altera_merlin_router "id_router_031"
+Info: id_router_034: "SoC" instantiated altera_merlin_router "id_router_034"
+Info: id_router_037: "SoC" instantiated altera_merlin_router "id_router_037"
+Info: id_router_040: "SoC" instantiated altera_merlin_router "id_router_040"
+Info: id_router_043: "SoC" instantiated altera_merlin_router "id_router_043"
+Info: id_router_046: "SoC" instantiated altera_merlin_router "id_router_046"
+Info: id_router_048: "SoC" instantiated altera_merlin_router "id_router_048"
+Info: id_router_051: "SoC" instantiated altera_merlin_router "id_router_051"
+Info: id_router_054: "SoC" instantiated altera_merlin_router "id_router_054"
+Info: limiter: "SoC" instantiated altera_merlin_traffic_limiter "limiter"
+Info: burst_adapter: "SoC" instantiated altera_merlin_burst_adapter "burst_adapter"
+Info: rst_controller: "SoC" instantiated altera_reset_controller "rst_controller"
+Info: cmd_xbar_demux: "SoC" instantiated altera_merlin_demultiplexer "cmd_xbar_demux"
+Info: cmd_xbar_demux_001: "SoC" instantiated altera_merlin_demultiplexer "cmd_xbar_demux_001"
+Info: cmd_xbar_demux_002: "SoC" instantiated altera_merlin_demultiplexer "cmd_xbar_demux_002"
+Info: cmd_xbar_demux_003: "SoC" instantiated altera_merlin_demultiplexer "cmd_xbar_demux_003"
+Info: cmd_xbar_demux_006: "SoC" instantiated altera_merlin_demultiplexer "cmd_xbar_demux_006"
+Info: cmd_xbar_mux: "SoC" instantiated altera_merlin_multiplexer "cmd_xbar_mux"
+Info: rsp_xbar_demux: "SoC" instantiated altera_merlin_demultiplexer "rsp_xbar_demux"
+Info: rsp_xbar_demux_003: "SoC" instantiated altera_merlin_demultiplexer "rsp_xbar_demux_003"
+Info: rsp_xbar_mux: "SoC" instantiated altera_merlin_multiplexer "rsp_xbar_mux"
+Info: Reusing file D:/CO503AdvancedEmbeddedSystems/Newfolder/JFEG_MPSOC/SoC/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: rsp_xbar_mux_001: "SoC" instantiated altera_merlin_multiplexer "rsp_xbar_mux_001"
+Info: Reusing file D:/CO503AdvancedEmbeddedSystems/Newfolder/JFEG_MPSOC/SoC/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: rsp_xbar_mux_002: "SoC" instantiated altera_merlin_multiplexer "rsp_xbar_mux_002"
+Info: Reusing file D:/CO503AdvancedEmbeddedSystems/Newfolder/JFEG_MPSOC/SoC/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: rsp_xbar_mux_003: "SoC" instantiated altera_merlin_multiplexer "rsp_xbar_mux_003"
+Info: Reusing file D:/CO503AdvancedEmbeddedSystems/Newfolder/JFEG_MPSOC/SoC/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: rsp_xbar_mux_006: "SoC" instantiated altera_merlin_multiplexer "rsp_xbar_mux_006"
+Info: Reusing file D:/CO503AdvancedEmbeddedSystems/Newfolder/JFEG_MPSOC/SoC/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: width_adapter: "SoC" instantiated altera_merlin_width_adapter "width_adapter"
+Info: Reusing file D:/CO503AdvancedEmbeddedSystems/Newfolder/JFEG_MPSOC/SoC/synthesis/submodules/altera_merlin_burst_uncompressor.sv
+Info: Reusing file D:/CO503AdvancedEmbeddedSystems/Newfolder/JFEG_MPSOC/SoC/synthesis/submodules/altera_merlin_address_alignment.sv
+Info: irq_mapper: "SoC" instantiated altera_irq_mapper "irq_mapper"
+Info: irq_mapper_002: "SoC" instantiated altera_irq_mapper "irq_mapper_002"
+Info: SoC: Done SoC" with 83 modules, 703 files, 13293736 bytes
+Info: ip-generate succeeded.
+Info: Finished: Create HDL design files for synthesis
